@@ -1,0 +1,539 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skeppsritningar av Fredrik Henrik af Chapman: Ett urval och elektronisk version</title>
+        <author>Fredrik Henrik af Chapman</author>
+        <editor>Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar</editor>
+        <principal>Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar</principal>
+        <respStmt>
+          <resp> Konvertering till TEI-konformiterat mark-up</resp>
+          <name>Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>
+        Ett urval av 9 planscher som illustrerar skeppsritningar som har digitaliserats från en fysisk upplaga. 
+        </p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Högskolan Borås</orgName>
+            <street>Allegatan 1</street>
+            <settlement>Borås</settlement>
+            <postCode>50332</postCode>
+            <country>Sverige</country>
+          </address>
+        </pubPlace>
+        <authority> Sjöhistoriska museet en del av statens maritima och transporthistoriska museer</authority>
+        <date>2025</date>
+        <availability>
+          <p>Licensed with a
+            <ref target="https://creativecommons.org/publicdomain/mark/1.0/"> Public Domain Mark (PDM)
+            </ref> Fritt från kända upphovsrättsliga restriktioner </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>Plancher till Theoretisk Afhandling om Linieskepp utgifne år 1804</title>
+            <author>Fredrik Henrik af Chapman</author>
+          </analytic>
+          <monogr>
+            <imprint>
+              <publisher>Okänt</publisher>
+              <pubPlace>Stockholm</pubPlace>
+              <biblScope unit="page" n="49">fyrtionio sidor</biblScope>
+              <date>1804</date>
+            </imprint>
+          </monogr>
+          <relatedItem>
+            <bibl>Källan till den här utgåvan är utgiven av
+              <distributor>okänd</distributor>.</bibl>
+          </relatedItem>
+        </biblStruct> 
+        <msDesc>
+          <msIdentifier>
+            <country>Sverige</country>
+            <institution>Sjöhistoriska museet</institution>
+          </msIdentifier>
+            <physDesc>
+              <objectDesc form="Planschsamling">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Hårt pappersmaterial varpå det går att observera pappersmassans bitar i bilderna.</p>
+                  </support>
+                  <extent>49 blad <dimensions scope="all" type="blad"
+                      unit="centimeter">
+                      <height>51,5</height>
+                      <width>62</width>
+                  </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+              </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc> 
+      <projectDesc>
+        <p> Här ska vi beskriva projektet, "Describes in detail the aim or 
+          purpose for which an electronic file was encoded, together with 
+          any other relevant information concerning the process by which it 
+          was assembled or collected."</p>
+      </projectDesc>
+      <appInfo>
+        <application version="1" ident="ScanSoftware">
+          <label>WideTEK26ART</label>
+          <ptr target=">WideTEK26ART"/>
+        </application>
+        <application version="2.10.38" ident="ImageProcessor">
+          <label>Gimp</label>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="SAB">
+          <bibl>
+            <title>Klassifikationssystem för svenska bibliotek</title>
+            <edition> Den åttonde upplagan version 2015:1 </edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>Planscher tryckta från kopparstick</creation>
+      <langUsage>
+        <language ident="swe">Svenska</language>
+      </langUsage>
+      <textDesc n="ritningar">
+        <channel mode="w">tryck; del av utgåva</channel>
+        <constitution type="single"/>
+        <derivation type="original"/>
+        <domain type="ritningar"/>
+        <factuality type="fact"/>
+        <interaction type="none"/>
+        <preparedness type="prepared"/>
+        <purpose type="inform" degree="medium"/>
+      </textDesc>
+      <settingDesc>
+        <setting>
+          <name>Stockholm,Sverige</name>
+          <time>Tidigt 1800-tal</time>
+        </setting>
+      </settingDesc>
+      <particDesc>
+      <listPerson>
+        <person xml:id="FHAC">
+          <persName>Fredrik Henrik af Chapman</persName>
+          <note>
+            <ref target="https://sv.wikipedia.org/wiki/Fredrik_Henrik_af_Chapman"> Wikipedia inlägg om Chapman</ref>
+          </note>
+          <!-- Här kan vi skriva om Chapman-->
+          <birth>
+            <date when="1721-09-09">9 september 1721</date>
+            <placeName>Nya Varvet, Göteborg</placeName>
+          </birth>
+          <death>
+            <date when="1808-08-19">19 augusti 1808</date>
+            <placeName>Karlskrona</placeName>
+          </death>
+          <occupation>skeppsbyggare</occupation>
+        </person>
+      </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+<TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Framsida</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <pubPlace>Sverige</pubPlace>
+          <idno>Framsida</idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+              <editor>okänd</editor>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher>Okänd</publisher>
+                <pubPlace>Sverige</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct> 
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Planschsamling">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial.</p>
+                  </support>
+                  <extent> 1 blad <dimensions type="blad"
+                      unit="centimeter">
+                      <height>51,5</height>
+                      <width>62</width>
+                  </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+      <div type = "transkription">
+        <p> <l>F.H. AF CHAPMAN. </l>
+          <l>PLANCHER</l>
+        <l>Till</l>
+        <l>Theoretisk Afhandling </l>
+        <l>om</l>
+        <l>linieskepp</l>
+        <l>utgifve år 1804.</l>
+        </p>
+        <p>
+        <l> A.</l>
+          <l>1B.</l>
+        </p>
+      </div>
+        <div type="beskrivning">
+          
+        </div>
+      </body>
+    </text>
+  <facsimile>
+    <surfaceGrp n="framsida">
+      <surface>
+        <graphic url="page1.png"/>
+      </surface>
+    </surfaceGrp>
+  </facsimile>
+</TEI>
+  
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title> Andra bilden</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher> Nutid </publisher>
+          <pubPlace> Nutid </pubPlace>
+          <idno></idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher> Dåtid</publisher>
+                <pubPlace> Dåtid</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct> 
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Bok">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial.</p>
+                  </support>
+                  <extent>i + 55 leaves <dimensions scope="all" type="leaf"
+                      unit="centimeter">
+                      <height>????</height>
+                      <width>????</width>
+                  </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type = "transkription">
+        </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="leaf1">
+        <surface>
+          <graphic url="page1.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
+  
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title> Tredje bilden</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher> Nutid </publisher>
+          <pubPlace> Nutid </pubPlace>
+          <idno></idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher> Dåtid</publisher>
+                <pubPlace> Dåtid</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct> 
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Bok">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial.</p>
+                  </support>
+                  <extent>i + 55 leaves <dimensions scope="all" type="leaf"
+                      unit="centimeter">
+                      <height>????</height>
+                      <width>????</width>
+                  </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type = "transkription">
+        </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="leaf1">
+        <surface>
+          <graphic url="page1.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
+  
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title> Fjärde bilden</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher> Nutid </publisher>
+          <pubPlace> Nutid </pubPlace>
+          <idno></idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher> Dåtid</publisher>
+                <pubPlace> Dåtid</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct> 
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Bok">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial.</p>
+                  </support>
+                  <extent>i + 55 leaves <dimensions scope="all" type="leaf"
+                      unit="centimeter">
+                      <height>????</height>
+                      <width>????</width>
+                  </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type = "transkription">
+        </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="leaf1">
+        <surface>
+          <graphic url="page1.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
+  
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title> Femte bilden</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher> Nutid </publisher>
+          <pubPlace> Nutid </pubPlace>
+          <idno></idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher> Dåtid</publisher>
+                <pubPlace> Dåtid</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct> 
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Bok">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial.</p>
+                  </support>
+                  <extent>i + 55 leaves <dimensions scope="all" type="leaf"
+                      unit="centimeter">
+                      <height>????</height>
+                      <width>????</width>
+                  </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type = "transkription">
+        </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="leaf1">
+        <surface>
+          <graphic url="page1.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
+  
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title> Sjätte bilden</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher> Nutid </publisher>
+          <pubPlace> Nutid </pubPlace>
+          <idno></idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher> Dåtid</publisher>
+                <pubPlace> Dåtid</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct> 
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Bok">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial.</p>
+                  </support>
+                  <extent>i + 55 leaves <dimensions scope="all" type="leaf"
+                      unit="centimeter">
+                      <height>????</height>
+                      <width>????</width>
+                  </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type = "transkription">
+        </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="leaf1">
+        <surface>
+          <graphic url="page1.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
+  </teiCorpus>
