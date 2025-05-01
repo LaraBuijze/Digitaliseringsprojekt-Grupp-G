@@ -142,6 +142,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <particDesc>
       <listPerson>
         <person xml:id="FHAC">
+          <idno type="URI">http://viaf.org/viaf/46894680</idno>
           <persName>Fredrik Henrik af Chapman</persName>
           <note>
             <ref target="https://sv.wikipedia.org/wiki/Fredrik_Henrik_af_Chapman"> Wikipedia inlägg om Chapman</ref>
@@ -491,12 +492,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title> Sjätte bilden</title>
+          <title>PL.IV.A.</title>
         </titleStmt>
         <publicationStmt>
-          <publisher> Nutid </publisher>
-          <pubPlace> Nutid </pubPlace>
-          <idno></idno>
+          <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <pubPlace>Sverige</pubPlace>
+          <idno>PL.IV.A.</idno>
         </publicationStmt>
         <sourceDesc>
           <biblStruct>
@@ -505,8 +506,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </analytic>
             <monogr>
               <imprint>
-                <publisher> Dåtid</publisher>
-                <pubPlace> Dåtid</pubPlace>
+                <publisher>Okänd</publisher>
+                <pubPlace>Sverige</pubPlace>
               </imprint>
             </monogr>
           </biblStruct> 
@@ -516,15 +517,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <institution>Sjöhistoriska museet</institution>
             </msIdentifier>
             <physDesc>
-              <objectDesc form="Bok">
+              <objectDesc form="Planschsamling">
                 <supportDesc material="Papper">
                   <support>
-                    <p>Pappersmaterial.</p>
+                    <p>Pappersmaterial</p>
                   </support>
-                  <extent>i + 55 leaves <dimensions scope="all" type="leaf"
-                      unit="centimeter">
-                      <height>????</height>
-                      <width>????</width>
+                  <extent>1 blad<dimensions type="blad"
+                    unit="centimeter">
+                    <height>49,7</height>
+                    <width>111</width>
                   </dimensions>
                   </extent>
                 </supportDesc>
@@ -537,11 +538,160 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
       <body>
         <div type = "transkription">
+          <p>
+            <l>80 CAN.</l>
+            <l>PL.IV.A.</l>
+          </p>
+        </div>
+        <div type="beskrivning">
+          <p>
+            80 kanoners linjeskepp, profil- och linjeritning. Kopparstick. Plansch IV.A. ur Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets dimensioner: 49,7x111 cm
+          </p>
         </div>
       </body>
     </text>
     <facsimile>
-      <surfaceGrp n="leaf1">
+      <surfaceGrp n="PL.IV.A.">
+        <surface>
+          <graphic url="page1.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>PL.IV.B.</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <pubPlace>Sverige</pubPlace>
+          <idno>PL.IV.B.</idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher>Okänd</publisher>
+                <pubPlace>Sverige</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct> 
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Planschsamling">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial</p>
+                  </support>
+                  <extent>1 blad<dimensions type="blad"
+                    unit="centimeter">
+                    <height>33,8</height>
+                    <width>30,4</width>
+                  </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type = "transkription">
+          <p>
+            <l>PL.IV.B.</l>
+            <l>80 CAN.</l>
+          </p>
+        </div>
+        <div type="beskrivning">
+          <p>
+            80 kanoners linjeskepp, spantritning. Kopparstick. Plansch IV.B. ur Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets dimensioner 33,8x30,4
+          </p>
+        </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="PL.IV.B.">
+        <surface>
+          <graphic url="page1.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>PL.IV.C.</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <pubPlace>Sverige</pubPlace>
+          <idno>PL.IV.C.</idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher>Okänd</publisher>
+                <pubPlace>Sverige</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct> 
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Planschsamling">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial</p>
+                  </support>
+                  <extent>1 blad<dimensions type="blad"
+                    unit="centimeter">
+                    <height>25,5</height>
+                    <width>31,3</width>
+                  </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type = "transkription">
+          <p>
+            <l>80 CAN.</l>
+            <l>PL.IV.C.</l>
+          </p>
+        </div>
+        <div type="beskrivning">
+          <p>
+            Akterspegel till 80 kanoners linjeskepp. Kopparstick. Plansch IV.C. ur Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets dimensioner 25,5x31,3
+          </p>
+        </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="PL.IV.C.">
         <surface>
           <graphic url="page1.png"/>
         </surface>
