@@ -83,10 +83,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </fileDesc>
     <encodingDesc> 
       <projectDesc>
-        <p> Här ska vi beskriva projektet, "Describes in detail the aim or 
-          purpose for which an electronic file was encoded, together with 
-          any other relevant information concerning the process by which it 
-          was assembled or collected."</p>
+        <p>
+          Detta är ett digitaliseringsprojekt som är utfört våren 2025 på
+          Masterprogram i Biblioteks- och Informationsvetenskap, distansutbildning, vid Högskolan i Borås och inom ramen för kursen Digitalisering för bevarande och tillgänglighet.
+          Uppgiften har varit att genomföra ett projekt grundat i att digitalisera material av kulturhistoriskt intresse.
+        </p>
+        <p>I samarbete med Sjöhistoriska museet i Stockholm utgår projektet från en samling kopparstick som föreställer diverse skeppsritningar.
+          Samlingen består utav 26 planscher med vissa undernummer och totalt rör det sig om cirka 50 kopparstick.
+          Angiven konstruktör är Fredrik Henrik af Chapman, gravör/producent okänd.
+          Titeln på kopparstickssamlingen är Plancher till Theoretisk Afhandling om Linieskepp utgifne år 1804.
+          Ett urval vad nödvändigt att göra, ett som ansågs representativt för samlingen; tre skepp med olika mängd kanoner och tillika varierande mängd storlek på kopparsticken (det vill säga, olika mått vad gäller själva storleken på materialet) ledde till sammanlagt nio kopparstick som skannades.
+          Ytterligare skannades också framsidan och insidan av pärmen, följaktligen resulterade detta i elva enskilda skanningar.
+        </p>
+        <p>Metadata kodades genom användning av XML mark-up med TEI-vokabulär.
+          Syftet med detta var att samla metadata på ett översiktligt sätt och försäkra att användaren av den digitala samlingen skulle kunna tillgå all relevant information.
+          Metadata kodades i en så kallad TEI-corpus vilket innefattar en övergripande header med en sammanfattning av all metadata för hela samlingen initialt för att sedan efterföljas av enskilda TEI-headers för respektive bild i kronologisk ordning.
+        </p>
       </projectDesc>
       <appInfo>
         <application version="1" ident="ScanSoftware">
