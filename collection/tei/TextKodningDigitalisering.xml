@@ -536,4 +536,209 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
+    <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Åttonde bilden</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <pubPlace>Sverige</pubPlace>
+          <idno>Åttonde bilden</idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+              <editor>Okänd</editor>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher>Okänd</publisher>
+                <pubPlace>Sverige</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct> 
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Planschsamling">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial.</p>
+                  </support>
+                  <extent>1 blad<dimensions type="blad"
+                    unit="centimeter">
+                    <height>45</height>
+                    <width>100,5</width>
+                  </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type = "transkription">
+          <p> <l>52 Can. </l>
+            <l>PL.VII.A.</l>
+          </p>
+        </div>
+        <div type="beskrivning">
+          
+        </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="Blad8">
+        <surface>
+          <graphic url="blad8.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Nionde bilden</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <pubPlace>Sverige</pubPlace>
+          <idno>Nionde bilden</idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+              <editor>Okänd</editor>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher>Okänd</publisher>
+                <pubPlace>Sverige</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct> 
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Planschsamling">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial.</p>
+                  </support>
+                  <extent>1 blad<dimensions type="blad"
+                    unit="centimeter">
+                    <height>34,7</height>
+                    <width>26,4</width>
+                  </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type = "transkription">
+          <p> <l>52 Can. </l>
+            <l>PL.VII.B.</l>
+          </p>
+        </div>
+        <div type="beskrivning">
+          
+        </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="Blad9">
+        <surface>
+          <graphic url="blad9.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Tionde bilden</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <pubPlace>Sverige</pubPlace>
+          <idno>Tionde bilden</idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+              <editor>Okänd</editor>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher>Okänd</publisher>
+                <pubPlace>Sverige</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct> 
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Planschsamling">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial.</p>
+                  </support>
+                  <extent>1 blad<dimensions type="blad"
+                    unit="centimeter">
+                    <height>24</height>
+                    <width>29</width>
+                  </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type = "transkription">
+          <p> <l>52 Can. </l>
+            <l>PL.VII.C.</l>
+           <l>F.R.fc:</l> 
+          </p>
+        </div>
+        <div type="beskrivning">
+          
+        </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="Blad10">
+        <surface>
+          <graphic url="blad10.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
   </teiCorpus>
