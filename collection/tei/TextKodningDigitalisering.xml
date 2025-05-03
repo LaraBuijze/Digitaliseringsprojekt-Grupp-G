@@ -6,7 +6,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Skeppsritningar av Fredrik Henrik af Chapman: Ett urval och elektronisk version</title>
+        <title>Skeppsritningar av Fredrik Henrik af Chapman: Ett urval och elektronisk
+          version</title>
         <author>Fredrik Henrik af Chapman</author>
         <editor>Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar</editor>
         <principal>Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar</principal>
@@ -16,9 +17,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <p>
-        Ett urval av 9 planscher som illustrerar skeppsritningar som har digitaliserats från en fysisk upplaga. 
-        </p>
+        <p> Ett urval av 9 planscher som illustrerar skeppsritningar som har digitaliserats från en
+          fysisk upplaga. </p>
       </editionStmt>
       <publicationStmt>
         <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar</publisher>
@@ -31,12 +31,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <country>Sverige</country>
           </address>
         </pubPlace>
-        <authority> Sjöhistoriska museet en del av statens maritima och transporthistoriska museer</authority>
+        <authority> Sjöhistoriska museet en del av statens maritima och transporthistoriska
+          museer</authority>
         <date>2025</date>
         <availability>
-          <p>Licensed with a
-            <ref target="https://creativecommons.org/publicdomain/mark/1.0/"> Public Domain Mark (PDM)
-            </ref> Fritt från kända upphovsrättsliga restriktioner </p>
+          <p>Licensed with a <ref target="https://creativecommons.org/publicdomain/mark/1.0/">
+              Public Domain Mark (PDM) </ref> Fritt från kända upphovsrättsliga restriktioner </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -54,51 +54,54 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </imprint>
           </monogr>
           <relatedItem>
-            <bibl>Källan till den här utgåvan är utgiven av
-              <distributor>okänd</distributor>.</bibl>
+            <bibl>Källan till den här utgåvan är utgiven av <distributor>okänd</distributor>.</bibl>
           </relatedItem>
-        </biblStruct> 
+        </biblStruct>
         <msDesc>
           <msIdentifier>
             <country>Sverige</country>
             <institution>Sjöhistoriska museet</institution>
           </msIdentifier>
-            <physDesc>
-              <objectDesc form="Planschsamling">
-                <supportDesc material="Papper">
-                  <support>
-                    <p>Hårt pappersmaterial varpå det går att observera pappersmassans bitar i bilderna.</p>
-                  </support>
-                  <extent>49 blad <dimensions scope="all" type="blad"
-                      unit="centimeter">
-                      <height>51,5</height>
-                      <width>62</width>
+          <physDesc>
+            <objectDesc form="Planschsamling">
+              <supportDesc material="Papper">
+                <support>
+                  <p>Hårt pappersmaterial varpå det går att observera pappersmassans bitar i
+                    bilderna.</p>
+                </support>
+                <extent>49 blad <dimensions scope="all" type="blad" unit="centimeter">
+                    <height>51,5</height>
+                    <width>62</width>
                   </dimensions>
-                  </extent>
-                </supportDesc>
-              </objectDesc>
-              </physDesc>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
         </msDesc>
       </sourceDesc>
     </fileDesc>
-    <encodingDesc> 
+    <encodingDesc>
       <projectDesc>
-        <p>
-          Detta är ett digitaliseringsprojekt som är utfört våren 2025 på
-          Masterprogram i Biblioteks- och Informationsvetenskap, distansutbildning, vid Högskolan i Borås och inom ramen för kursen Digitalisering för bevarande och tillgänglighet.
-          Uppgiften har varit att genomföra ett projekt grundat i att digitalisera material av kulturhistoriskt intresse.
-        </p>
-        <p>I samarbete med Sjöhistoriska museet i Stockholm utgår projektet från en samling kopparstick som föreställer diverse skeppsritningar.
-          Samlingen består utav 26 planscher med vissa undernummer och totalt rör det sig om cirka 50 kopparstick.
-          Angiven konstruktör är Fredrik Henrik af Chapman, gravör/producent okänd.
-          Titeln på kopparstickssamlingen är Plancher till Theoretisk Afhandling om Linieskepp utgifne år 1804.
-          Ett urval vad nödvändigt att göra, ett som ansågs representativt för samlingen; tre skepp med olika mängd kanoner och tillika varierande mängd storlek på kopparsticken (det vill säga, olika mått vad gäller själva storleken på materialet) ledde till sammanlagt nio kopparstick som skannades.
-          Ytterligare skannades också framsidan och insidan av pärmen, följaktligen resulterade detta i elva enskilda skanningar.
-        </p>
-        <p>Metadata kodades genom användning av XML mark-up med TEI-vokabulär.
-          Syftet med detta var att samla metadata på ett översiktligt sätt och försäkra att användaren av den digitala samlingen skulle kunna tillgå all relevant information.
-          Metadata kodades i en så kallad TEI-corpus vilket innefattar en övergripande header med en sammanfattning av all metadata för hela samlingen initialt för att sedan efterföljas av enskilda TEI-headers för respektive bild i kronologisk ordning.
-        </p>
+        <p> Detta är ett digitaliseringsprojekt som är utfört våren 2025 på Masterprogram i
+          Biblioteks- och Informationsvetenskap, distansutbildning, vid Högskolan i Borås och inom
+          ramen för kursen Digitalisering för bevarande och tillgänglighet. Uppgiften har varit att
+          genomföra ett projekt grundat i att digitalisera material av kulturhistoriskt intresse. </p>
+        <p>I samarbete med Sjöhistoriska museet i Stockholm utgår projektet från en samling
+          kopparstick som föreställer diverse skeppsritningar. Samlingen består utav 26 planscher
+          med vissa undernummer och totalt rör det sig om cirka 50 kopparstick. Angiven konstruktör
+          är Fredrik Henrik af Chapman, gravör/producent okänd. Titeln på kopparstickssamlingen är
+          Plancher till Theoretisk Afhandling om Linieskepp utgifne år 1804. Ett urval vad
+          nödvändigt att göra, ett som ansågs representativt för samlingen; tre skepp med olika
+          mängd kanoner och tillika varierande mängd storlek på kopparsticken (det vill säga, olika
+          mått vad gäller själva storleken på materialet) ledde till sammanlagt nio kopparstick som
+          skannades. Ytterligare skannades också framsidan och insidan av pärmen, följaktligen
+          resulterade detta i elva enskilda skanningar. </p>
+        <p>Metadata kodades genom användning av XML mark-up med TEI-vokabulär. Syftet med detta var
+          att samla metadata på ett översiktligt sätt och försäkra att användaren av den digitala
+          samlingen skulle kunna tillgå all relevant information. Metadata kodades i en så kallad
+          TEI-corpus vilket innefattar en övergripande header med en sammanfattning av all metadata
+          för hela samlingen initialt för att sedan efterföljas av enskilda TEI-headers för
+          respektive bild i kronologisk ordning. </p>
       </projectDesc>
       <appInfo>
         <application version="1" ident="ScanSoftware">
@@ -140,29 +143,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </setting>
       </settingDesc>
       <particDesc>
-      <listPerson>
-        <person xml:id="FHAC">
-          <idno type="URI">http://viaf.org/viaf/46894680</idno>
-          <persName>Fredrik Henrik af Chapman</persName>
-          <note>
-            <ref target="https://sv.wikipedia.org/wiki/Fredrik_Henrik_af_Chapman"> Wikipedia inlägg om Chapman</ref>
-          </note>
-          <!-- Här kan vi skriva om Chapman-->
-          <birth>
-            <date when="1721-09-09">9 september 1721</date>
-            <placeName>Nya Varvet, Göteborg</placeName>
-          </birth>
-          <death>
-            <date when="1808-08-19">19 augusti 1808</date>
-            <placeName>Karlskrona</placeName>
-          </death>
-          <occupation>skeppsbyggare</occupation>
-        </person>
-      </listPerson>
+        <listPerson>
+          <person xml:id="FHAC">
+            <idno type="URI">http://viaf.org/viaf/46894680</idno>
+            <persName>Fredrik Henrik af Chapman</persName>
+            <note>
+              <ref target="https://sok.riksarkivet.se/sbl/artikel/14787">'Fredric Henric Chapman,
+                af' i Svenskt Biografiskt Lexikon</ref>
+              <p>Fredrik Henrik af Chapman var en internationellt känd fartygskonstruktör från
+                Göteborg. Han föddes på Nya Varvet i Göteborg den 9:e september 1721. Han har haft
+                stort inflytande på det svenska skeppsbyggeriet. Från 1744 arbetade han på flera
+                skeppsvarv och utvecklade sig till skeppsbyggmästare. 1781 blev han chef i
+                Karlskrona vid flottans varv. Han avled den 19:e augusti 1808 i Karlskrona.</p>
+              <p>Hans insatser för den svenska flottan och hans teoretiska arbeten kring
+                skeppsbyggnad är de sakerna som han är mest känd för. Hans studier i matematik och
+                fysik fick stort påverkan i hur han utvecklade skeppskonstruktion och
+                skeppsbyggnaden. Nya fartygstyper särskilt anpassade för den svensk-finska
+                skärgården samt andra intressanta fartygstyperna skapades och ritades av Fredrik
+                Henrik af Chapman. De metoder han utvecklade gjorde att det kunde levereras fler
+                fartyg på kortare tid och på det sättet byggde han upp den svenska skärgårdsflottan.
+              </p>
+            </note>
+            <birth>
+              <date when="1721-09-09">9 september 1721</date>
+              <placeName>Nya Varvet, Göteborg</placeName>
+            </birth>
+            <death>
+              <date when="1808-08-19">19 augusti 1808</date>
+              <placeName>Karlskrona</placeName>
+            </death>
+            <occupation>skeppsbyggare</occupation>
+          </person>
+        </listPerson>
       </particDesc>
     </profileDesc>
   </teiHeader>
-<TEI>
+  <TEI>
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -185,7 +201,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <pubPlace>Sverige</pubPlace>
               </imprint>
             </monogr>
-          </biblStruct> 
+          </biblStruct>
           <msDesc>
             <msIdentifier>
               <country> Sverige</country>
@@ -197,10 +213,85 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial.</p>
                   </support>
-                  <extent> 1 blad <dimensions type="blad"
-                      unit="centimeter">
+                  <extent> 1 blad <dimensions type="blad" unit="centimeter">
                       <height>51,5</height>
                       <width>62</width>
+                    </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="transkription">
+          <p>
+            <l>F.H. AF CHAPMAN. </l>
+            <l>PLANCHER</l>
+            <l>Till</l>
+            <l>Theoretisk Afhandling </l>
+            <l>om</l>
+            <l>linieskepp</l>
+            <l>utgifve år 1804.</l>
+          </p>
+          <p>
+            <l> A.</l>
+            <l>1B.</l>
+          </p>
+        </div>
+        <div type="beskrivning"> </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="framsida">
+        <surface>
+          <graphic url="page1.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
+
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>ANDRA BILDEN</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <pubPlace>Sverige</pubPlace>
+          <idno>Framsida</idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+              <editor>okänd</editor>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher>Okänd</publisher>
+                <pubPlace>Sverige</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Planschsamling">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial.</p>
+                  </support>
+                  <extent> 1 blad <dimensions type="blad" unit="centimeter">
+                    <height>51,5</height>
+                    <width>62</width>
                   </dimensions>
                   </extent>
                 </supportDesc>
@@ -212,34 +303,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
       <body>
-      <div type = "transkription">
-        <p> <l>F.H. AF CHAPMAN. </l>
-          <l>PLANCHER</l>
-        <l>Till</l>
-        <l>Theoretisk Afhandling </l>
-        <l>om</l>
-        <l>linieskepp</l>
-        <l>utgifve år 1804.</l>
-        </p>
-        <p>
-        <l> A.</l>
-          <l>1B.</l>
-        </p>
-      </div>
-        <div type="beskrivning">
-          
+        <div type="transkription">
+          <p>
+            <l>F.H. AF CHAPMAN. </l>
+            <l>PLANCHER</l>
+            <l>Till</l>
+            <l>Theoretisk Afhandling </l>
+            <l>om</l>
+            <l>linieskepp</l>
+            <l>utgifve år 1804.</l>
+          </p>
+          <p>
+            <l> A.</l>
+            <l>1B.</l>
+          </p>
         </div>
+        <div type="beskrivning"> </div>
       </body>
     </text>
-  <facsimile>
-    <surfaceGrp n="framsida">
-      <surface>
-        <graphic url="page1.png"/>
-      </surface>
-    </surfaceGrp>
-  </facsimile>
-</TEI>
-  
+    <facsimile>
+      <surfaceGrp n="framsida">
+        <surface>
+          <graphic url="page1.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
   <TEI>
     <teiHeader>
       <fileDesc>
@@ -249,7 +338,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <publicationStmt>
           <publisher> Nutid </publisher>
           <pubPlace> Nutid </pubPlace>
-          <idno></idno>
+          <idno/>
         </publicationStmt>
         <sourceDesc>
           <biblStruct>
@@ -262,7 +351,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <pubPlace> Dåtid</pubPlace>
               </imprint>
             </monogr>
-          </biblStruct> 
+          </biblStruct>
           <msDesc>
             <msIdentifier>
               <country> Sverige</country>
@@ -274,10 +363,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial.</p>
                   </support>
-                  <extent>i + 55 leaves <dimensions scope="all" type="leaf"
-                      unit="centimeter">
+                  <extent>i + 55 leaves <dimensions scope="all" type="leaf" unit="centimeter">
                       <height>????</height>
                       <width>????</width>
+                    </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="transkription"> </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="leaf1">
+        <surface>
+          <graphic url="page1.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Tredje BILDENNN</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <pubPlace>Sverige</pubPlace>
+          <idno>Framsida</idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+              <editor>okänd</editor>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher>Okänd</publisher>
+                <pubPlace>Sverige</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Planschsamling">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial.</p>
+                  </support>
+                  <extent> 1 blad <dimensions type="blad" unit="centimeter">
+                    <height>51,5</height>
+                    <width>62</width>
                   </dimensions>
                   </extent>
                 </supportDesc>
@@ -289,19 +437,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
       <body>
-        <div type = "transkription">
+        <div type="transkription">
+          <p>
+            <l>F.H. AF CHAPMAN. </l>
+            <l>PLANCHER</l>
+            <l>Till</l>
+            <l>Theoretisk Afhandling </l>
+            <l>om</l>
+            <l>linieskepp</l>
+            <l>utgifve år 1804.</l>
+          </p>
+          <p>
+            <l> A.</l>
+            <l>1B.</l>
+          </p>
         </div>
+        <div type="beskrivning"> </div>
       </body>
     </text>
     <facsimile>
-      <surfaceGrp n="leaf1">
+      <surfaceGrp n="framsida">
         <surface>
           <graphic url="page1.png"/>
         </surface>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  
   <TEI>
     <teiHeader>
       <fileDesc>
@@ -311,7 +472,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <publicationStmt>
           <publisher> Nutid </publisher>
           <pubPlace> Nutid </pubPlace>
-          <idno></idno>
+          <idno/>
         </publicationStmt>
         <sourceDesc>
           <biblStruct>
@@ -324,7 +485,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <pubPlace> Dåtid</pubPlace>
               </imprint>
             </monogr>
-          </biblStruct> 
+          </biblStruct>
           <msDesc>
             <msIdentifier>
               <country> Sverige</country>
@@ -336,10 +497,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial.</p>
                   </support>
-                  <extent>i + 55 leaves <dimensions scope="all" type="leaf"
-                      unit="centimeter">
+                  <extent>i + 55 leaves <dimensions scope="all" type="leaf" unit="centimeter">
                       <height>????</height>
                       <width>????</width>
+                    </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="transkription"> </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="leaf1">
+        <surface>
+          <graphic url="page1.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>FJ;rde BILDENNN</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <pubPlace>Sverige</pubPlace>
+          <idno>Framsida</idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+              <editor>okänd</editor>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher>Okänd</publisher>
+                <pubPlace>Sverige</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Planschsamling">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial.</p>
+                  </support>
+                  <extent> 1 blad <dimensions type="blad" unit="centimeter">
+                    <height>51,5</height>
+                    <width>62</width>
                   </dimensions>
                   </extent>
                 </supportDesc>
@@ -351,19 +571,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
       <body>
-        <div type = "transkription">
+        <div type="transkription">
+          <p>
+            <l>F.H. AF CHAPMAN. </l>
+            <l>PLANCHER</l>
+            <l>Till</l>
+            <l>Theoretisk Afhandling </l>
+            <l>om</l>
+            <l>linieskepp</l>
+            <l>utgifve år 1804.</l>
+          </p>
+          <p>
+            <l> A.</l>
+            <l>1B.</l>
+          </p>
         </div>
+        <div type="beskrivning"> </div>
       </body>
     </text>
     <facsimile>
-      <surfaceGrp n="leaf1">
+      <surfaceGrp n="framsida">
         <surface>
           <graphic url="page1.png"/>
         </surface>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  
   <TEI>
     <teiHeader>
       <fileDesc>
@@ -373,7 +606,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <publicationStmt>
           <publisher> Nutid </publisher>
           <pubPlace> Nutid </pubPlace>
-          <idno></idno>
+          <idno/>
         </publicationStmt>
         <sourceDesc>
           <biblStruct>
@@ -386,7 +619,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <pubPlace> Dåtid</pubPlace>
               </imprint>
             </monogr>
-          </biblStruct> 
+          </biblStruct>
           <msDesc>
             <msIdentifier>
               <country> Sverige</country>
@@ -398,10 +631,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial.</p>
                   </support>
-                  <extent>i + 55 leaves <dimensions scope="all" type="leaf"
-                      unit="centimeter">
+                  <extent>i + 55 leaves <dimensions scope="all" type="leaf" unit="centimeter">
                       <height>????</height>
                       <width>????</width>
+                    </dimensions>
+                  </extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="transkription"> </div>
+      </body>
+    </text>
+    <facsimile>
+      <surfaceGrp n="leaf1">
+        <surface>
+          <graphic url="page1.png"/>
+        </surface>
+      </surfaceGrp>
+    </facsimile>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>FEMMTEE BILDDENNN</title>
+        </titleStmt>
+        <publicationStmt>
+          <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <pubPlace>Sverige</pubPlace>
+          <idno>Framsida</idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <analytic>
+              <author>Fredrik Henrik af Chapman</author>
+              <editor>okänd</editor>
+            </analytic>
+            <monogr>
+              <imprint>
+                <publisher>Okänd</publisher>
+                <pubPlace>Sverige</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <msDesc>
+            <msIdentifier>
+              <country> Sverige</country>
+              <institution>Sjöhistoriska museet</institution>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc form="Planschsamling">
+                <supportDesc material="Papper">
+                  <support>
+                    <p>Pappersmaterial.</p>
+                  </support>
+                  <extent> 1 blad <dimensions type="blad" unit="centimeter">
+                    <height>51,5</height>
+                    <width>62</width>
                   </dimensions>
                   </extent>
                 </supportDesc>
@@ -413,20 +705,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
       <body>
-        <div type = "transkription">
+        <div type="transkription">
+          <p>
+            <l>F.H. AF CHAPMAN. </l>
+            <l>PLANCHER</l>
+            <l>Till</l>
+            <l>Theoretisk Afhandling </l>
+            <l>om</l>
+            <l>linieskepp</l>
+            <l>utgifve år 1804.</l>
+          </p>
+          <p>
+            <l> A.</l>
+            <l>1B.</l>
+          </p>
         </div>
+        <div type="beskrivning"> </div>
       </body>
     </text>
     <facsimile>
-      <surfaceGrp n="leaf1">
+      <surfaceGrp n="framsida">
         <surface>
           <graphic url="page1.png"/>
         </surface>
       </surfaceGrp>
     </facsimile>
-  </TEI>
-  
-  <TEI>
+  </TEI>  <TEI>
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -435,7 +739,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <publicationStmt>
           <publisher> Nutid </publisher>
           <pubPlace> Nutid </pubPlace>
-          <idno></idno>
+          <idno/>
         </publicationStmt>
         <sourceDesc>
           <biblStruct>
@@ -448,7 +752,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <pubPlace> Dåtid</pubPlace>
               </imprint>
             </monogr>
-          </biblStruct> 
+          </biblStruct>
           <msDesc>
             <msIdentifier>
               <country> Sverige</country>
@@ -460,11 +764,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial.</p>
                   </support>
-                  <extent>i + 55 leaves <dimensions scope="all" type="leaf"
-                      unit="centimeter">
+                  <extent>i + 55 leaves <dimensions scope="all" type="leaf" unit="centimeter">
                       <height>????</height>
                       <width>????</width>
-                  </dimensions>
+                    </dimensions>
                   </extent>
                 </supportDesc>
               </objectDesc>
@@ -475,8 +778,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
       <body>
-        <div type = "transkription">
-        </div>
+        <div type="transkription"> </div>
       </body>
     </text>
     <facsimile>
@@ -487,7 +789,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  
+
   <TEI>
     <teiHeader>
       <fileDesc>
@@ -510,7 +812,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <pubPlace>Sverige</pubPlace>
               </imprint>
             </monogr>
-          </biblStruct> 
+          </biblStruct>
           <msDesc>
             <msIdentifier>
               <country> Sverige</country>
@@ -522,11 +824,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial</p>
                   </support>
-                  <extent>1 blad<dimensions type="blad"
-                    unit="centimeter">
-                    <height>49,7</height>
-                    <width>111</width>
-                  </dimensions>
+                  <extent>1 blad<dimensions type="blad" unit="centimeter">
+                      <height>49,7</height>
+                      <width>111</width>
+                    </dimensions>
                   </extent>
                 </supportDesc>
               </objectDesc>
@@ -537,16 +838,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
       <body>
-        <div type = "transkription">
+        <div type="transkription">
           <p>
             <l>80 CAN.</l>
             <l>PL.IV.A.</l>
           </p>
         </div>
         <div type="beskrivning">
-          <p>
-            80 kanoners linjeskepp, profil- och linjeritning. Kopparstick. Plansch IV.A. ur Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets dimensioner: 49,7x111 cm
-          </p>
+          <p> 80 kanoners linjeskepp, profil- och linjeritning. Kopparstick. Plansch IV.A. ur
+            Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804).
+            Papprets dimensioner: 49,7x111 cm </p>
         </div>
       </body>
     </text>
@@ -580,7 +881,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <pubPlace>Sverige</pubPlace>
               </imprint>
             </monogr>
-          </biblStruct> 
+          </biblStruct>
           <msDesc>
             <msIdentifier>
               <country> Sverige</country>
@@ -592,11 +893,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial</p>
                   </support>
-                  <extent>1 blad<dimensions type="blad"
-                    unit="centimeter">
-                    <height>33,8</height>
-                    <width>30,4</width>
-                  </dimensions>
+                  <extent>1 blad<dimensions type="blad" unit="centimeter">
+                      <height>33,8</height>
+                      <width>30,4</width>
+                    </dimensions>
                   </extent>
                 </supportDesc>
               </objectDesc>
@@ -607,16 +907,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
       <body>
-        <div type = "transkription">
+        <div type="transkription">
           <p>
             <l>PL.IV.B.</l>
             <l>80 CAN.</l>
           </p>
         </div>
         <div type="beskrivning">
-          <p>
-            80 kanoners linjeskepp, spantritning. Kopparstick. Plansch IV.B. ur Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets dimensioner 33,8x30,4
-          </p>
+          <p> 80 kanoners linjeskepp, spantritning. Kopparstick. Plansch IV.B. ur Fredrik Henrik af
+            Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets dimensioner
+            33,8x30,4 </p>
         </div>
       </body>
     </text>
@@ -650,7 +950,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <pubPlace>Sverige</pubPlace>
               </imprint>
             </monogr>
-          </biblStruct> 
+          </biblStruct>
           <msDesc>
             <msIdentifier>
               <country> Sverige</country>
@@ -662,11 +962,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial</p>
                   </support>
-                  <extent>1 blad<dimensions type="blad"
-                    unit="centimeter">
-                    <height>25,5</height>
-                    <width>31,3</width>
-                  </dimensions>
+                  <extent>1 blad<dimensions type="blad" unit="centimeter">
+                      <height>25,5</height>
+                      <width>31,3</width>
+                    </dimensions>
                   </extent>
                 </supportDesc>
               </objectDesc>
@@ -677,16 +976,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
       <body>
-        <div type = "transkription">
+        <div type="transkription">
           <p>
             <l>80 CAN.</l>
             <l>PL.IV.C.</l>
           </p>
         </div>
         <div type="beskrivning">
-          <p>
-            Akterspegel till 80 kanoners linjeskepp. Kopparstick. Plansch IV.C. ur Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets dimensioner 25,5x31,3
-          </p>
+          <p> Akterspegel till 80 kanoners linjeskepp. Kopparstick. Plansch IV.C. ur Fredrik Henrik
+            af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets
+            dimensioner 25,5x31,3 </p>
         </div>
       </body>
     </text>
@@ -698,7 +997,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-    <TEI>
+  <TEI>
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -721,7 +1020,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <pubPlace>Sverige</pubPlace>
               </imprint>
             </monogr>
-          </biblStruct> 
+          </biblStruct>
           <msDesc>
             <msIdentifier>
               <country> Sverige</country>
@@ -733,11 +1032,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial.</p>
                   </support>
-                  <extent>1 blad<dimensions type="blad"
-                    unit="centimeter">
-                    <height>45</height>
-                    <width>100,5</width>
-                  </dimensions>
+                  <extent>1 blad<dimensions type="blad" unit="centimeter">
+                      <height>45</height>
+                      <width>100,5</width>
+                    </dimensions>
                   </extent>
                 </supportDesc>
               </objectDesc>
@@ -748,14 +1046,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
       <body>
-        <div type = "transkription">
-          <p> <l>52 Can. </l>
+        <div type="transkription">
+          <p>
+            <l>52 Can. </l>
             <l>PL.VII.A.</l>
           </p>
         </div>
-        <div type="beskrivning">
-          
-        </div>
+        <div type="beskrivning"> </div>
       </body>
     </text>
     <facsimile>
@@ -789,7 +1086,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <pubPlace>Sverige</pubPlace>
               </imprint>
             </monogr>
-          </biblStruct> 
+          </biblStruct>
           <msDesc>
             <msIdentifier>
               <country> Sverige</country>
@@ -801,11 +1098,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial.</p>
                   </support>
-                  <extent>1 blad<dimensions type="blad"
-                    unit="centimeter">
-                    <height>34,7</height>
-                    <width>26,4</width>
-                  </dimensions>
+                  <extent>1 blad<dimensions type="blad" unit="centimeter">
+                      <height>34,7</height>
+                      <width>26,4</width>
+                    </dimensions>
                   </extent>
                 </supportDesc>
               </objectDesc>
@@ -816,14 +1112,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
       <body>
-        <div type = "transkription">
-          <p> <l>52 Can. </l>
+        <div type="transkription">
+          <p>
+            <l>52 Can. </l>
             <l>PL.VII.B.</l>
           </p>
         </div>
-        <div type="beskrivning">
-          
-        </div>
+        <div type="beskrivning"> </div>
       </body>
     </text>
     <facsimile>
@@ -857,7 +1152,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <pubPlace>Sverige</pubPlace>
               </imprint>
             </monogr>
-          </biblStruct> 
+          </biblStruct>
           <msDesc>
             <msIdentifier>
               <country> Sverige</country>
@@ -869,11 +1164,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial.</p>
                   </support>
-                  <extent>1 blad<dimensions type="blad"
-                    unit="centimeter">
-                    <height>24</height>
-                    <width>29</width>
-                  </dimensions>
+                  <extent>1 blad<dimensions type="blad" unit="centimeter">
+                      <height>24</height>
+                      <width>29</width>
+                    </dimensions>
                   </extent>
                 </supportDesc>
               </objectDesc>
@@ -884,15 +1178,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
       <body>
-        <div type = "transkription">
-          <p> <l>52 Can. </l>
+        <div type="transkription">
+          <p>
+            <l>52 Can. </l>
             <l>PL.VII.C.</l>
-           <l>F.R.fc:</l> 
+            <l>F.R.fc:</l>
           </p>
         </div>
-        <div type="beskrivning">
-          
-        </div>
+        <div type="beskrivning"> </div>
       </body>
     </text>
     <facsimile>
@@ -903,4 +1196,4 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  </teiCorpus>
+</teiCorpus>
