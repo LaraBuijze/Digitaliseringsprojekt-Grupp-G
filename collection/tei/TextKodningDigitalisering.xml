@@ -253,17 +253,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-
   <TEI>
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>ANDRA BILDEN</title>
+          <title>Insida</title>
         </titleStmt>
         <publicationStmt>
           <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
           <pubPlace>Sverige</pubPlace>
-          <idno>Framsida</idno>
+          <idno>Insida</idno>
         </publicationStmt>
         <sourceDesc>
           <biblStruct>
@@ -290,9 +289,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <p>Pappersmaterial.</p>
                   </support>
                   <extent> 1 blad <dimensions type="blad" unit="centimeter">
-                    <height>51,5</height>
-                    <width>62</width>
-                  </dimensions>
+                      <height>51,5</height>
+                      <width>62</width>
+                    </dimensions>
                   </extent>
                 </supportDesc>
               </objectDesc>
@@ -305,24 +304,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>F.H. AF CHAPMAN. </l>
-            <l>PLANCHER</l>
-            <l>Till</l>
-            <l>Theoretisk Afhandling </l>
-            <l>om</l>
-            <l>linieskepp</l>
-            <l>utgifve år 1804.</l>
+            <l>Kungl. Marinförvaltningens</l>
+            <l>Ingenjöravdelning</l>
           </p>
           <p>
-            <l> A.</l>
-            <l>1B.</l>
+            <l>P 2.13</l>
+            <l>SJÖHISTORISKA MUSEET</l>
+            <l>Biblioteket</l>
+            <l>Stockholm</l>
+            <l>Rar. Saml. Ref</l>
+            <l>Bordet 81050573</l>
           </p>
         </div>
         <div type="beskrivning"> </div>
       </body>
     </text>
     <facsimile>
-      <surfaceGrp n="framsida">
+      <surfaceGrp n="insida">
         <surface>
           <graphic url="page1.png"/>
         </surface>
@@ -333,71 +331,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title> Andra bilden</title>
-        </titleStmt>
-        <publicationStmt>
-          <publisher> Nutid </publisher>
-          <pubPlace> Nutid </pubPlace>
-          <idno/>
-        </publicationStmt>
-        <sourceDesc>
-          <biblStruct>
-            <analytic>
-              <author>Fredrik Henrik af Chapman</author>
-            </analytic>
-            <monogr>
-              <imprint>
-                <publisher> Dåtid</publisher>
-                <pubPlace> Dåtid</pubPlace>
-              </imprint>
-            </monogr>
-          </biblStruct>
-          <msDesc>
-            <msIdentifier>
-              <country> Sverige</country>
-              <institution>Sjöhistoriska museet</institution>
-            </msIdentifier>
-            <physDesc>
-              <objectDesc form="Bok">
-                <supportDesc material="Papper">
-                  <support>
-                    <p>Pappersmaterial.</p>
-                  </support>
-                  <extent>i + 55 leaves <dimensions scope="all" type="leaf" unit="centimeter">
-                      <height>????</height>
-                      <width>????</width>
-                    </dimensions>
-                  </extent>
-                </supportDesc>
-              </objectDesc>
-            </physDesc>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    <text>
-      <body>
-        <div type="transkription"> </div>
-      </body>
-    </text>
-    <facsimile>
-      <surfaceGrp n="leaf1">
-        <surface>
-          <graphic url="page1.png"/>
-        </surface>
-      </surfaceGrp>
-    </facsimile>
-  </TEI>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Tredje BILDENNN</title>
+          <title>PL.II.A.</title>
         </titleStmt>
         <publicationStmt>
           <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
           <pubPlace>Sverige</pubPlace>
-          <idno>Framsida</idno>
+          <idno>PL.II.A.</idno>
         </publicationStmt>
         <sourceDesc>
           <biblStruct>
@@ -424,9 +363,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <p>Pappersmaterial.</p>
                   </support>
                   <extent> 1 blad <dimensions type="blad" unit="centimeter">
-                    <height>51,5</height>
-                    <width>62</width>
-                  </dimensions>
+                      <height>49,3</height>
+                      <width>116</width>
+                    </dimensions>
                   </extent>
                 </supportDesc>
               </objectDesc>
@@ -439,24 +378,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>F.H. AF CHAPMAN. </l>
-            <l>PLANCHER</l>
-            <l>Till</l>
-            <l>Theoretisk Afhandling </l>
-            <l>om</l>
-            <l>linieskepp</l>
-            <l>utgifve år 1804.</l>
-          </p>
-          <p>
-            <l> A.</l>
-            <l>1B.</l>
+            <l>110 CAN.</l>
+            <l>PL.II.A.</l>
           </p>
         </div>
-        <div type="beskrivning"> </div>
+        <div type="beskrivning">
+          <p> 110 kanoners linjeskepp, profil- och linjeritning. Kopparstick. Plansch II.A. ur
+            Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804).
+            Papprets dimensioner: 49,3x116 cm </p>
+        </div>
       </body>
     </text>
     <facsimile>
-      <surfaceGrp n="framsida">
+      <surfaceGrp n="PL.II.A.">
         <surface>
           <graphic url="page1.png"/>
         </surface>
@@ -467,71 +401,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title> Tredje bilden</title>
-        </titleStmt>
-        <publicationStmt>
-          <publisher> Nutid </publisher>
-          <pubPlace> Nutid </pubPlace>
-          <idno/>
-        </publicationStmt>
-        <sourceDesc>
-          <biblStruct>
-            <analytic>
-              <author>Fredrik Henrik af Chapman</author>
-            </analytic>
-            <monogr>
-              <imprint>
-                <publisher> Dåtid</publisher>
-                <pubPlace> Dåtid</pubPlace>
-              </imprint>
-            </monogr>
-          </biblStruct>
-          <msDesc>
-            <msIdentifier>
-              <country> Sverige</country>
-              <institution>Sjöhistoriska museet</institution>
-            </msIdentifier>
-            <physDesc>
-              <objectDesc form="Bok">
-                <supportDesc material="Papper">
-                  <support>
-                    <p>Pappersmaterial.</p>
-                  </support>
-                  <extent>i + 55 leaves <dimensions scope="all" type="leaf" unit="centimeter">
-                      <height>????</height>
-                      <width>????</width>
-                    </dimensions>
-                  </extent>
-                </supportDesc>
-              </objectDesc>
-            </physDesc>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    <text>
-      <body>
-        <div type="transkription"> </div>
-      </body>
-    </text>
-    <facsimile>
-      <surfaceGrp n="leaf1">
-        <surface>
-          <graphic url="page1.png"/>
-        </surface>
-      </surfaceGrp>
-    </facsimile>
-  </TEI>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>FJ;rde BILDENNN</title>
+          <title>PL.II.B.</title>
         </titleStmt>
         <publicationStmt>
           <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
           <pubPlace>Sverige</pubPlace>
-          <idno>Framsida</idno>
+          <idno>PL.II.B.</idno>
         </publicationStmt>
         <sourceDesc>
           <biblStruct>
@@ -558,9 +433,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <p>Pappersmaterial.</p>
                   </support>
                   <extent> 1 blad <dimensions type="blad" unit="centimeter">
-                    <height>51,5</height>
-                    <width>62</width>
-                  </dimensions>
+                      <height>46</height>
+                      <width>36</width>
+                    </dimensions>
                   </extent>
                 </supportDesc>
               </objectDesc>
@@ -573,24 +448,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>F.H. AF CHAPMAN. </l>
-            <l>PLANCHER</l>
-            <l>Till</l>
-            <l>Theoretisk Afhandling </l>
-            <l>om</l>
-            <l>linieskepp</l>
-            <l>utgifve år 1804.</l>
-          </p>
-          <p>
-            <l> A.</l>
-            <l>1B.</l>
+            <l>110 CAN.</l>
+            <l>PL.II.B.</l>
           </p>
         </div>
-        <div type="beskrivning"> </div>
+        <div type="beskrivning">
+          <p>110 kanoners linjeskepp, spantritning. Kopparstick. Plansch II.B. ur Fredrik Henrik af
+            Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets dimensioner
+            36x46 cm</p>
+        </div>
       </body>
     </text>
     <facsimile>
-      <surfaceGrp n="framsida">
+      <surfaceGrp n="PL.II.B.">
         <surface>
           <graphic url="page1.png"/>
         </surface>
@@ -601,71 +471,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title> Fjärde bilden</title>
-        </titleStmt>
-        <publicationStmt>
-          <publisher> Nutid </publisher>
-          <pubPlace> Nutid </pubPlace>
-          <idno/>
-        </publicationStmt>
-        <sourceDesc>
-          <biblStruct>
-            <analytic>
-              <author>Fredrik Henrik af Chapman</author>
-            </analytic>
-            <monogr>
-              <imprint>
-                <publisher> Dåtid</publisher>
-                <pubPlace> Dåtid</pubPlace>
-              </imprint>
-            </monogr>
-          </biblStruct>
-          <msDesc>
-            <msIdentifier>
-              <country> Sverige</country>
-              <institution>Sjöhistoriska museet</institution>
-            </msIdentifier>
-            <physDesc>
-              <objectDesc form="Bok">
-                <supportDesc material="Papper">
-                  <support>
-                    <p>Pappersmaterial.</p>
-                  </support>
-                  <extent>i + 55 leaves <dimensions scope="all" type="leaf" unit="centimeter">
-                      <height>????</height>
-                      <width>????</width>
-                    </dimensions>
-                  </extent>
-                </supportDesc>
-              </objectDesc>
-            </physDesc>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    <text>
-      <body>
-        <div type="transkription"> </div>
-      </body>
-    </text>
-    <facsimile>
-      <surfaceGrp n="leaf1">
-        <surface>
-          <graphic url="page1.png"/>
-        </surface>
-      </surfaceGrp>
-    </facsimile>
-  </TEI>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>FEMMTEE BILDDENNN</title>
+          <title>PL.II.C.</title>
         </titleStmt>
         <publicationStmt>
           <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
           <pubPlace>Sverige</pubPlace>
-          <idno>Framsida</idno>
+          <idno>PL.II.C.</idno>
         </publicationStmt>
         <sourceDesc>
           <biblStruct>
@@ -692,9 +503,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <p>Pappersmaterial.</p>
                   </support>
                   <extent> 1 blad <dimensions type="blad" unit="centimeter">
-                    <height>51,5</height>
-                    <width>62</width>
-                  </dimensions>
+                      <height>26,8</height>
+                      <width>49,5</width>
+                    </dimensions>
                   </extent>
                 </supportDesc>
               </objectDesc>
@@ -707,89 +518,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>F.H. AF CHAPMAN. </l>
-            <l>PLANCHER</l>
-            <l>Till</l>
-            <l>Theoretisk Afhandling </l>
-            <l>om</l>
-            <l>linieskepp</l>
-            <l>utgifve år 1804.</l>
-          </p>
-          <p>
-            <l> A.</l>
-            <l>1B.</l>
+            <l>110 CAN.</l>
+            <l>PL.II.C.</l>
           </p>
         </div>
-        <div type="beskrivning"> </div>
+        <div type="beskrivning">
+          <p> Akterspegel till 110 kanoners linjeskepp. Kopparstick. Plansch II.C. ur Fredrik Henrik
+            af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets
+            dimensioner 49,5x26,8 cm </p>
+        </div>
       </body>
     </text>
     <facsimile>
-      <surfaceGrp n="framsida">
-        <surface>
-          <graphic url="page1.png"/>
-        </surface>
-      </surfaceGrp>
-    </facsimile>
-  </TEI>  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title> Femte bilden</title>
-        </titleStmt>
-        <publicationStmt>
-          <publisher> Nutid </publisher>
-          <pubPlace> Nutid </pubPlace>
-          <idno/>
-        </publicationStmt>
-        <sourceDesc>
-          <biblStruct>
-            <analytic>
-              <author>Fredrik Henrik af Chapman</author>
-            </analytic>
-            <monogr>
-              <imprint>
-                <publisher> Dåtid</publisher>
-                <pubPlace> Dåtid</pubPlace>
-              </imprint>
-            </monogr>
-          </biblStruct>
-          <msDesc>
-            <msIdentifier>
-              <country> Sverige</country>
-              <institution>Sjöhistoriska museet</institution>
-            </msIdentifier>
-            <physDesc>
-              <objectDesc form="Bok">
-                <supportDesc material="Papper">
-                  <support>
-                    <p>Pappersmaterial.</p>
-                  </support>
-                  <extent>i + 55 leaves <dimensions scope="all" type="leaf" unit="centimeter">
-                      <height>????</height>
-                      <width>????</width>
-                    </dimensions>
-                  </extent>
-                </supportDesc>
-              </objectDesc>
-            </physDesc>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    <text>
-      <body>
-        <div type="transkription"> </div>
-      </body>
-    </text>
-    <facsimile>
-      <surfaceGrp n="leaf1">
+      <surfaceGrp n="PL.II.C.">
         <surface>
           <graphic url="page1.png"/>
         </surface>
       </surfaceGrp>
     </facsimile>
   </TEI>
-
   <TEI>
     <teiHeader>
       <fileDesc>
