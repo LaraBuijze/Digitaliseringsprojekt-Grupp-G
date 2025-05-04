@@ -12,13 +12,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <editor>Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar</editor>
         <principal>Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar</principal>
         <respStmt>
-          <resp> Konvertering till TEI-konformiterat mark-up</resp>
+          <resp>Konvertering till TEI-konformiterat mark-up</resp>
           <name>Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <p> Ett urval av 9 planscher som illustrerar skeppsritningar som har digitaliserats från en
-          fysisk upplaga. </p>
+        <p>Ett urval av 9 planscher som illustrerar skeppsritningar som har digitaliserats från en
+          fysisk upplaga.</p>
       </editionStmt>
       <publicationStmt>
         <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar</publisher>
@@ -31,7 +31,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <country>Sverige</country>
           </address>
         </pubPlace>
-        <authority> Sjöhistoriska museet en del av statens maritima och transporthistoriska
+        <authority>Sjöhistoriska museet en del av statens maritima och transporthistoriska
           museer</authority>
         <date>2025</date>
         <availability>
@@ -49,7 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <imprint>
               <publisher>Okänt</publisher>
               <pubPlace>Stockholm</pubPlace>
-              <biblScope unit="page" n="49">fyrtionio sidor</biblScope>
+              <biblScope unit="page" n="49">Fyrtionio sidor</biblScope>
               <date>1804</date>
             </imprint>
           </monogr>
@@ -82,10 +82,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p> Detta är ett digitaliseringsprojekt som är utfört våren 2025 på Masterprogram i
+        <p>Detta är ett digitaliseringsprojekt som är utfört våren 2025 på Masterprogram i
           Biblioteks- och Informationsvetenskap, distansutbildning, vid Högskolan i Borås och inom
           ramen för kursen Digitalisering för bevarande och tillgänglighet. Uppgiften har varit att
-          genomföra ett projekt grundat i att digitalisera material av kulturhistoriskt intresse. </p>
+          genomföra ett projekt grundat i att digitalisera material av kulturhistoriskt intresse.</p>
         <p>I samarbete med Sjöhistoriska museet i Stockholm utgår projektet från en samling
           kopparstick som föreställer diverse skeppsritningar. Samlingen består utav 26 planscher
           med vissa undernummer och totalt rör det sig om cirka 50 kopparstick. Angiven konstruktör
@@ -95,13 +95,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           mängd kanoner och tillika varierande mängd storlek på kopparsticken (det vill säga, olika
           mått vad gäller själva storleken på materialet) ledde till sammanlagt nio kopparstick som
           skannades. Ytterligare skannades också framsidan och insidan av pärmen, följaktligen
-          resulterade detta i elva enskilda skanningar. </p>
+          resulterade detta i elva enskilda skanningar.</p>
         <p>Metadata kodades genom användning av XML mark-up med TEI-vokabulär. Syftet med detta var
           att samla metadata på ett översiktligt sätt och försäkra att användaren av den digitala
           samlingen skulle kunna tillgå all relevant information. Metadata kodades i en så kallad
           TEI-corpus vilket innefattar en övergripande header med en sammanfattning av all metadata
           för hela samlingen initialt för att sedan efterföljas av enskilda TEI-headers för
-          respektive bild i kronologisk ordning. </p>
+          respektive bild i kronologisk ordning.</p>
       </projectDesc>
       <appInfo>
         <application version="1" ident="ScanSoftware">
@@ -116,7 +116,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <taxonomy xml:id="SAB">
           <bibl>
             <title>Klassifikationssystem för svenska bibliotek</title>
-            <edition> Den åttonde upplagan version 2015:1 </edition>
+            <edition>Den åttonde upplagan version 2015:1</edition>
           </bibl>
         </taxonomy>
       </classDecl>
@@ -185,7 +185,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <title>Framsida</title>
         </titleStmt>
         <publicationStmt>
-          <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
           <pubPlace>Sverige</pubPlace>
           <idno>Framsida</idno>
         </publicationStmt>
@@ -204,7 +204,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </biblStruct>
           <msDesc>
             <msIdentifier>
-              <country> Sverige</country>
+              <country>Sverige</country>
               <institution>Sjöhistoriska museet</institution>
             </msIdentifier>
             <physDesc>
@@ -213,7 +213,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial.</p>
                   </support>
-                  <extent> 1 blad <dimensions type="blad" unit="centimeter">
+                  <extent>1 blad<dimensions type="blad" unit="centimeter">
                       <height>51,5</height>
                       <width>62</width>
                     </dimensions>
@@ -260,7 +260,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <title>Insida</title>
         </titleStmt>
         <publicationStmt>
-          <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
           <pubPlace>Sverige</pubPlace>
           <idno>Insida</idno>
         </publicationStmt>
@@ -279,7 +279,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </biblStruct>
           <msDesc>
             <msIdentifier>
-              <country> Sverige</country>
+              <country>Sverige</country>
               <institution>Sjöhistoriska museet</institution>
             </msIdentifier>
             <physDesc>
@@ -288,7 +288,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial.</p>
                   </support>
-                  <extent> 1 blad <dimensions type="blad" unit="centimeter">
+                  <extent>1 blad<dimensions type="blad" unit="centimeter">
                       <height>51,5</height>
                       <width>62</width>
                     </dimensions>
@@ -334,7 +334,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <title>PL.II.A.</title>
         </titleStmt>
         <publicationStmt>
-          <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
           <pubPlace>Sverige</pubPlace>
           <idno>PL.II.A.</idno>
         </publicationStmt>
@@ -353,7 +353,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </biblStruct>
           <msDesc>
             <msIdentifier>
-              <country> Sverige</country>
+              <country>Sverige</country>
               <institution>Sjöhistoriska museet</institution>
             </msIdentifier>
             <physDesc>
@@ -362,7 +362,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial.</p>
                   </support>
-                  <extent> 1 blad <dimensions type="blad" unit="centimeter">
+                  <extent>1 blad<dimensions type="blad" unit="centimeter">
                       <height>49,3</height>
                       <width>116</width>
                     </dimensions>
@@ -383,7 +383,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </p>
         </div>
         <div type="beskrivning">
-          <p> 110 kanoners linjeskepp, profil- och linjeritning. Kopparstick. Plansch II.A. ur
+          <p>110 kanoners linjeskepp, profil- och linjeritning. Kopparstick. Plansch II.A. ur
             Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804).
             Papprets dimensioner: 49,3x116 cm </p>
         </div>
@@ -404,7 +404,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <title>PL.II.B.</title>
         </titleStmt>
         <publicationStmt>
-          <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
           <pubPlace>Sverige</pubPlace>
           <idno>PL.II.B.</idno>
         </publicationStmt>
@@ -432,7 +432,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <support>
                     <p>Pappersmaterial.</p>
                   </support>
-                  <extent> 1 blad <dimensions type="blad" unit="centimeter">
+                  <extent>1 blad<dimensions type="blad" unit="centimeter">
                       <height>46</height>
                       <width>36</width>
                     </dimensions>
@@ -474,7 +474,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <title>PL.II.C.</title>
         </titleStmt>
         <publicationStmt>
-          <publisher> Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
+          <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
           <pubPlace>Sverige</pubPlace>
           <idno>PL.II.C.</idno>
         </publicationStmt>
@@ -493,7 +493,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </biblStruct>
           <msDesc>
             <msIdentifier>
-              <country> Sverige</country>
+              <country>Sverige</country>
               <institution>Sjöhistoriska museet</institution>
             </msIdentifier>
             <physDesc>
@@ -523,9 +523,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </p>
         </div>
         <div type="beskrivning">
-          <p> Akterspegel till 110 kanoners linjeskepp. Kopparstick. Plansch II.C. ur Fredrik Henrik
+          <p>Akterspegel till 110 kanoners linjeskepp. Kopparstick. Plansch II.C. ur Fredrik Henrik
             af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets
-            dimensioner 49,5x26,8 cm </p>
+            dimensioner 49,5x26,8 cm
+          </p>
         </div>
       </body>
     </text>
@@ -592,9 +593,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </p>
         </div>
         <div type="beskrivning">
-          <p> 80 kanoners linjeskepp, profil- och linjeritning. Kopparstick. Plansch IV.A. ur
+          <p>80 kanoners linjeskepp, profil- och linjeritning. Kopparstick. Plansch IV.A. ur
             Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804).
-            Papprets dimensioner: 49,7x111 cm </p>
+            Papprets dimensioner: 49,7x111 cm
+          </p>
         </div>
       </body>
     </text>
@@ -661,9 +663,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </p>
         </div>
         <div type="beskrivning">
-          <p> 80 kanoners linjeskepp, spantritning. Kopparstick. Plansch IV.B. ur Fredrik Henrik af
+          <p>80 kanoners linjeskepp, spantritning. Kopparstick. Plansch IV.B. ur Fredrik Henrik af
             Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets dimensioner
-            33,8x30,4 </p>
+            33,8x30,4
+          </p>
         </div>
       </body>
     </text>
@@ -700,7 +703,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </biblStruct>
           <msDesc>
             <msIdentifier>
-              <country> Sverige</country>
+              <country>Sverige</country>
               <institution>Sjöhistoriska museet</institution>
             </msIdentifier>
             <physDesc>
@@ -730,9 +733,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </p>
         </div>
         <div type="beskrivning">
-          <p> Akterspegel till 80 kanoners linjeskepp. Kopparstick. Plansch IV.C. ur Fredrik Henrik
+          <p>Akterspegel till 80 kanoners linjeskepp. Kopparstick. Plansch IV.C. ur Fredrik Henrik
             af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets
-            dimensioner 25,5x31,3 </p>
+            dimensioner 25,5x31,3
+          </p>
         </div>
       </body>
     </text>
@@ -902,7 +906,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </biblStruct>
           <msDesc>
             <msIdentifier>
-              <country> Sverige</country>
+              <country>Sverige</country>
               <institution>Sjöhistoriska museet</institution>
             </msIdentifier>
             <physDesc>
