@@ -748,16 +748,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  <TEI>
+   <TEI>
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>Åttonde bilden</title>
+          <title>PL.VII.A</title>
         </titleStmt>
         <publicationStmt>
           <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
           <pubPlace>Sverige</pubPlace>
-          <idno>Åttonde bilden</idno>
+          <idno>PL.VII.A.</idno>
         </publicationStmt>
         <sourceDesc>
           <biblStruct>
@@ -774,7 +774,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </biblStruct>
           <msDesc>
             <msIdentifier>
-              <country> Sverige</country>
+              <country>Sverige</country>
               <institution>Sjöhistoriska museet</institution>
             </msIdentifier>
             <physDesc>
@@ -799,15 +799,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>52 Can. </l>
+            <l>52 Can.</l>
             <l>PL.VII.A.</l>
           </p>
         </div>
-        <div type="beskrivning"> </div>
+        <div type="beskrivning">
+          <p>52 kanoners linjeskepp, profil- och linjeritning. Kopparstick. Plansch VII.A. ur
+            Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804).
+            Papprets dimensioner: 45x100,5 cm.</p>
+        </div>
       </body>
     </text>
     <facsimile>
-      <surfaceGrp n="Blad8">
+      <surfaceGrp n="PL.VII.A.">
         <surface>
           <graphic url="blad8.png"/>
         </surface>
@@ -818,12 +822,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>Nionde bilden</title>
+          <title>PL.VII.B.</title>
         </titleStmt>
         <publicationStmt>
           <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
           <pubPlace>Sverige</pubPlace>
-          <idno>Nionde bilden</idno>
+          <idno>PL.VII.B.</idno>
         </publicationStmt>
         <sourceDesc>
           <biblStruct>
@@ -840,7 +844,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </biblStruct>
           <msDesc>
             <msIdentifier>
-              <country> Sverige</country>
+              <country>Sverige</country>
               <institution>Sjöhistoriska museet</institution>
             </msIdentifier>
             <physDesc>
@@ -865,15 +869,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>52 Can. </l>
+            <l>52 Can.</l>
             <l>PL.VII.B.</l>
           </p>
         </div>
-        <div type="beskrivning"> </div>
+        <div type="beskrivning">
+          <p>52 kanoners linjeskepp, spantritning. Kopparstick. Plansch VII.B. ur Fredrik Henrik af
+            Chapmans Plancher till theoretisk afhandling om linieskepp (1804).
+            Papprets dimensioner 34,7x26,4 cm.
+          </p>
+        </div>
       </body>
     </text>
     <facsimile>
-      <surfaceGrp n="Blad9">
+      <surfaceGrp n="PL.VII.B.">
         <surface>
           <graphic url="blad9.png"/>
         </surface>
@@ -884,12 +893,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>Tionde bilden</title>
+          <title>PL.VII.C.</title>
         </titleStmt>
         <publicationStmt>
           <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
           <pubPlace>Sverige</pubPlace>
-          <idno>Tionde bilden</idno>
+          <idno>PL.VII.C.</idno>
         </publicationStmt>
         <sourceDesc>
           <biblStruct>
@@ -936,11 +945,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <l>F.R.fc:</l>
           </p>
         </div>
-        <div type="beskrivning"> </div>
+        <div type="beskrivning">
+          <p>Akterspegel till 52 kanoners linjeskepp. Kopparstick. Plansch VII.C. ur Fredrik Henrik
+            af Chapmans Plancher till theoretisk afhandling om linieskepp (1804).
+            Papprets dimensioner:  24x29 cm.</p>
+        </div>
       </body>
     </text>
     <facsimile>
-      <surfaceGrp n="Blad10">
+      <surfaceGrp n="PL.VII.C.">
         <surface>
           <graphic url="blad10.png"/>
         </surface>
