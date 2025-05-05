@@ -301,7 +301,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </fileDesc>
        <profileDesc> 
         <textClass>
-          <keywords scheme="https://metadatabyran.kb.se/klassifikation/sab">
+          <keywords scheme="https://id.kb.se/find?q=%2a&and-inScheme.%40id=https%3A%2F%2Fid.kb.se%2Fterm%2Fsao">
             <term></term>
             <term></term>
           </keywords>
