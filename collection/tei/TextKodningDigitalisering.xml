@@ -299,6 +299,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </msDesc>
         </sourceDesc>
       </fileDesc>
+       <profileDesc> 
+        <textClass>
+          <keywords scheme="https://metadatabyran.kb.se/klassifikation/sab">
+            <term></term>
+            <term></term>
+          </keywords>
+        </textClass>
+      </profileDesc>
     </teiHeader>
     <text>
       <body>
