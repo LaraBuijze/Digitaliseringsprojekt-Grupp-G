@@ -77,6 +77,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </supportDesc>
             </objectDesc>
           </physDesc>
+          <physDesc>
+            <objectDesc>
+              <p>Linjeskepp</p>
+              <p>Linjeskeppen var de seglande flottornas största fartyg. De var byggda för att kunna
+                slåss enligt linjetaktiken, vilket innebar att fartygen i en flotta seglade på linje
+                efter varandra och slogs så mot fienden. På så sätt kunde de få så många kanoner som
+                möjligt att bära mot fienden samtidigt som fartygens svagt bestyckade för och akter
+                skyddades av den egna flottans fartyg. Skulle striden gå dåligt kunde de dra sig
+                tillbaka under ordnade former. Flottans fartyg var bland det dyraste staten hade vid
+                denna tid så man ville absolut inte förlora dem.</p>
+              <p>Kopparstick</p>
+              <p>Planscherna i detta verk är tryckta med kopparstick. Kopparstick är en gammal
+                djuptrycksmetod där motivet ristas i en kopparplåt som sedan blir valsat med
+                tryckfärg. Därefter blir ett papper pressat mot plåten och på det viset trycks en
+                spegelbild av den inristade teckningen på pappret.</p>
+            </objectDesc>
+          </physDesc>
         </msDesc>
       </sourceDesc>
     </fileDesc>
@@ -85,7 +102,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <p>Detta är ett digitaliseringsprojekt som är utfört våren 2025 på Masterprogram i
           Biblioteks- och Informationsvetenskap, distansutbildning, vid Högskolan i Borås och inom
           ramen för kursen Digitalisering för bevarande och tillgänglighet. Uppgiften har varit att
-          genomföra ett projekt grundat i att digitalisera material av kulturhistoriskt intresse.</p>
+          genomföra ett projekt grundat i att digitalisera material av kulturhistoriskt
+          intresse.</p>
         <p>I samarbete med Sjöhistoriska museet i Stockholm utgår projektet från en samling
           kopparstick som föreställer diverse skeppsritningar. Samlingen består utav 26 planscher
           med vissa undernummer och totalt rör det sig om cirka 50 kopparstick. Angiven konstruktör
@@ -149,7 +167,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <persName>Fredrik Henrik af Chapman</persName>
             <note>
               <ref target="https://sok.riksarkivet.se/sbl/artikel/14787">'Fredric Henric Chapman,
-                af' i Svenskt Biografiskt Lexikon</ref>
+                af', Svenskt Biografiskt Lexikon</ref>
+              <ref target="https://digitaltmuseum.se/021189676586/af-chapmans-linjeskepp">'af
+                Chapmans linjeskepp', Sjöhistoriska museet</ref>
+              <ref
+                target="https://www.sjohistoriska.se/utforska/samlingar/arkiv/ritningar/fh-af-chapman"
+                >'Fredrik Henrik af Chapman', Sjöhistoriska museet</ref>
+              <ref
+                target="https://www.marinmuseum.se/besok/utstallningar/skepp-och-folk/fredrik-henrik-af-chapman/fartygstyper"
+                >'Fartygstyper', Marinmuseum</ref>
+              <p>Fredrik Henrik af Chapman</p>
               <p>Fredrik Henrik af Chapman var en internationellt känd fartygskonstruktör från
                 Göteborg. Han föddes på Nya Varvet i Göteborg den 9:e september 1721. Han har haft
                 stort inflytande på det svenska skeppsbyggeriet. Från 1744 arbetade han på flera
@@ -161,8 +188,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 skeppsbyggnaden. Nya fartygstyper särskilt anpassade för den svensk-finska
                 skärgården samt andra intressanta fartygstyperna skapades och ritades av Fredrik
                 Henrik af Chapman. De metoder han utvecklade gjorde att det kunde levereras fler
-                fartyg på kortare tid och på det sättet byggde han upp den svenska skärgårdsflottan.
-              </p>
+                fartyg på kortare tid och på det sättet byggde han upp den svenska
+                skärgårdsflottan.</p>
+              <p>År 1780 deltog af Chapman i den grupp sjöofficerare och riksråd som skulle besluta
+                om nya fartygstyper för den svenska flottan. De ansåg att de svenska linjeskeppen
+                borde bära på cirka 50 till 70 kanoner för att bättre passa i de grunda vattnen där
+                de troligen skulle behöva operera. Tanken var att små men tungt bestyckade
+                linjeskepp skulle kunna stödja skärgårdsflottans och arméns operationer samtidigt
+                som de skulle kunna möta andra linjeskepp i vanlig linjestrid. De var välbyggda och
+                blev ofta mycket långlivade.</p>
+              <p>Flera av Fredrik Henrik af Chapmans verk är publicerade. Det mest kända av hans
+                verk är planschverket ”Architectura Navalis Mercatoria” från 1768 som innehåller
+                kopparstick av fartygsritningar.</p>
             </note>
             <birth>
               <date when="1721-09-09">9 september 1721</date>
@@ -193,7 +230,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <biblStruct>
             <analytic>
               <author>Fredrik Henrik af Chapman</author>
-              <editor>okänd</editor>
+              <editor>Okänd</editor>
             </analytic>
             <monogr>
               <imprint>
@@ -211,7 +248,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <objectDesc form="Planschsamling">
                 <supportDesc material="Papper">
                   <support>
-                    <p>Pappersmaterial.</p>
+                    <p>Pappersmaterial</p>
                   </support>
                   <extent>1 blad<dimensions type="blad" unit="centimeter">
                       <height>51,5</height>
@@ -224,32 +261,48 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </msDesc>
         </sourceDesc>
       </fileDesc>
+      <profileDesc>
+        <textClass>
+          <keywords scheme="https://id.kb.se/term/sao">
+            <term ref="https://id.kb.se/term/sao/1800-talet">1800-talet</term>
+            <term ref="https://id.kb.se/term/sao/Kopparstick">kopparstick</term>
+            <term ref="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg</term>
+            <term ref="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri</term>
+            <term ref="https://id.kb.se/term/sao/Sverige">Sverige</term>
+            <term ref="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</term>
+          </keywords>
+        </textClass>
+      </profileDesc>
     </teiHeader>
     <text>
       <body>
         <div type="transkription">
           <p>
-            <l>F.H. AF CHAPMAN. </l>
+            <l>F.H. AF CHAPMAN</l>
             <l>PLANCHER</l>
-            <l>Till</l>
-            <l>Theoretisk Afhandling </l>
-            <l>om</l>
-            <l>linieskepp</l>
-            <l>utgifve år 1804.</l>
+            <l>TILL</l>
+            <l>THEORETISK AFHANDLING</l>
+            <l>OM</l>
+            <l>LINIESKEPP</l>
+            <l>UTGIFNE ÅR 1804.</l>
           </p>
           <p>
-            <l> A.</l>
+            <l>A.</l>
             <l>1B.</l>
           </p>
         </div>
-        <div type="beskrivning"> </div>
+        <div type="beskrivning">
+          <p>Framsida av pärmen till Fredrik Henrik af Chapmans Plancher till theoretisk afhandling
+            om linieskepp (1804). Pärmens dimensioner 51,5x62 cm.</p>
+        </div>
       </body>
     </text>
     <facsimile>
       <surfaceGrp n="framsida">
         <surface>
           <graphic xml:id="framsida-visning" url="docs/assets/img/visning/framsida-visning.jpg"/>
-          <graphic xml:id="framsida-thumbnail" url="docs/assets/img/thumbnail/framsida-thumbnail.jpg"/>
+          <graphic xml:id="framsida-thumbnail"
+            url="docs/assets/img/thumbnail/framsida-thumbnail.jpg"/>
         </surface>
       </surfaceGrp>
     </facsimile>
@@ -269,7 +322,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <biblStruct>
             <analytic>
               <author>Fredrik Henrik af Chapman</author>
-              <editor>okänd</editor>
+              <editor>Okänd</editor>
             </analytic>
             <monogr>
               <imprint>
@@ -287,7 +340,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <objectDesc form="Planschsamling">
                 <supportDesc material="Papper">
                   <support>
-                    <p>Pappersmaterial.</p>
+                    <p>Pappersmaterial</p>
                   </support>
                   <extent>1 blad<dimensions type="blad" unit="centimeter">
                       <height>51,5</height>
@@ -300,11 +353,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </msDesc>
         </sourceDesc>
       </fileDesc>
-       <profileDesc> 
+      <profileDesc>
         <textClass>
-          <keywords scheme="https://id.kb.se/find?q=%2a&and-inScheme.%40id=https%3A%2F%2Fid.kb.se%2Fterm%2Fsao">
-            <term></term>
-            <term></term>
+          <keywords scheme="https://id.kb.se/term/sao">
+            <term ref="https://id.kb.se/term/sao/1800-talet">1800-talet</term>
+            <term ref="https://id.kb.se/term/sao/Kopparstick">kopparstick</term>
+            <term ref="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg</term>
+            <term ref="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri</term>
+            <term ref="https://id.kb.se/term/sao/Sverige">Sverige</term>
+            <term ref="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</term>
           </keywords>
         </textClass>
       </profileDesc>
@@ -322,10 +379,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <l>Biblioteket</l>
             <l>Stockholm</l>
             <l>Rar. Saml. Ref</l>
-            <l>Bordet 81050573</l>
+            <l>Bordet 810505/3</l>
           </p>
         </div>
-        <div type="beskrivning"> </div>
+        <div type="beskrivning">
+          <p>Insidan av den främre pärmen till Fredrik Henrik af Chapmans Plancher till theoretisk
+            afhandling om linieskepp (1804). Pärmens dimensioner 51,5x62 cm.</p>
+        </div>
       </body>
     </text>
     <facsimile>
@@ -352,7 +412,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <biblStruct>
             <analytic>
               <author>Fredrik Henrik af Chapman</author>
-              <editor>okänd</editor>
+              <editor>Okänd</editor>
             </analytic>
             <monogr>
               <imprint>
@@ -370,7 +430,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <objectDesc form="Planschsamling">
                 <supportDesc material="Papper">
                   <support>
-                    <p>Pappersmaterial.</p>
+                    <p>Pappersmaterial</p>
                   </support>
                   <extent>1 blad<dimensions type="blad" unit="centimeter">
                       <height>49,3</height>
@@ -383,6 +443,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </msDesc>
         </sourceDesc>
       </fileDesc>
+      <profileDesc>
+        <textClass>
+          <keywords scheme="https://id.kb.se/term/sao">
+            <term ref="https://id.kb.se/term/sao/1800-talet">1800-talet</term>
+            <term ref="https://id.kb.se/term/sao/Kopparstick">kopparstick</term>
+            <term ref="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg</term>
+            <term ref="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri</term>
+            <term ref="https://id.kb.se/term/sao/Sverige">Sverige</term>
+            <term ref="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</term>
+          </keywords>
+        </textClass>
+      </profileDesc>
     </teiHeader>
     <text>
       <body>
@@ -395,7 +467,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <div type="beskrivning">
           <p>110 kanoners linjeskepp, profil- och linjeritning. Kopparstick. Plansch II.A. ur
             Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804).
-            Papprets dimensioner: 49,3x116 cm </p>
+            Papprets dimensioner 49,3x116 cm.</p>
         </div>
       </body>
     </text>
@@ -403,7 +475,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <surfaceGrp n="PL.II.A.">
         <surface>
           <graphic xml:id="pl-ii-a-visning" url="docs/assets/img/visning/pl-ii-a-visning.jpg"/>
-          <graphic xml:id="pl-ii-a-thumbnail" url="docs/assets/img/thumbnail/pl-ii-a-thumbnail.jpg"/>
+          <graphic xml:id="pl-ii-a-thumbnail" url="docs/assets/img/thumbnail/pl-ii-a-thumbnail.jpg"
+          />
         </surface>
       </surfaceGrp>
     </facsimile>
@@ -423,7 +496,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <biblStruct>
             <analytic>
               <author>Fredrik Henrik af Chapman</author>
-              <editor>okänd</editor>
+              <editor>Okänd</editor>
             </analytic>
             <monogr>
               <imprint>
@@ -441,7 +514,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <objectDesc form="Planschsamling">
                 <supportDesc material="Papper">
                   <support>
-                    <p>Pappersmaterial.</p>
+                    <p>Pappersmaterial</p>
                   </support>
                   <extent>1 blad<dimensions type="blad" unit="centimeter">
                       <height>46</height>
@@ -454,19 +527,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </msDesc>
         </sourceDesc>
       </fileDesc>
+      <profileDesc>
+        <textClass>
+          <keywords scheme="https://id.kb.se/term/sao">
+            <term ref="https://id.kb.se/term/sao/1800-talet">1800-talet</term>
+            <term ref="https://id.kb.se/term/sao/Kopparstick">kopparstick</term>
+            <term ref="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg</term>
+            <term ref="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri</term>
+            <term ref="https://id.kb.se/term/sao/Sverige">Sverige</term>
+            <term ref="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</term>
+          </keywords>
+        </textClass>
+      </profileDesc>
     </teiHeader>
     <text>
       <body>
         <div type="transkription">
           <p>
-            <l>110 CAN.</l>
             <l>PL.II.B.</l>
+            <l>110 CAN.</l>
           </p>
         </div>
         <div type="beskrivning">
           <p>110 kanoners linjeskepp, spantritning. Kopparstick. Plansch II.B. ur Fredrik Henrik af
             Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets dimensioner
-            36x46 cm</p>
+            46x36 cm.</p>
         </div>
       </body>
     </text>
@@ -474,7 +559,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <surfaceGrp n="PL.II.B.">
         <surface>
           <graphic xml:id="pl-ii-b-visning" url="docs/assets/img/visning/pl-ii-b-visning.jpg"/>
-          <graphic xml:id="pl-ii-b-thumbnail" url="docs/assets/img/thumbnail/pl-ii-b-thumbnail.jpg"/>
+          <graphic xml:id="pl-ii-b-thumbnail" url="docs/assets/img/thumbnail/pl-ii-b-thumbnail.jpg"
+          />
         </surface>
       </surfaceGrp>
     </facsimile>
@@ -494,7 +580,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <biblStruct>
             <analytic>
               <author>Fredrik Henrik af Chapman</author>
-              <editor>okänd</editor>
+              <editor>Okänd</editor>
             </analytic>
             <monogr>
               <imprint>
@@ -512,9 +598,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <objectDesc form="Planschsamling">
                 <supportDesc material="Papper">
                   <support>
-                    <p>Pappersmaterial.</p>
+                    <p>Pappersmaterial</p>
                   </support>
-                  <extent> 1 blad <dimensions type="blad" unit="centimeter">
+                  <extent>1 blad<dimensions type="blad" unit="centimeter">
                       <height>26,8</height>
                       <width>49,5</width>
                     </dimensions>
@@ -525,20 +611,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </msDesc>
         </sourceDesc>
       </fileDesc>
+      <profileDesc>
+        <textClass>
+          <keywords scheme="https://id.kb.se/term/sao">
+            <term ref="https://id.kb.se/term/sao/1800-talet">1800-talet</term>
+            <term ref="https://id.kb.se/term/sao/Kopparstick">kopparstick</term>
+            <term ref="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg</term>
+            <term ref="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri</term>
+            <term ref="https://id.kb.se/term/sao/Sverige">Sverige</term>
+            <term ref="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</term>
+          </keywords>
+        </textClass>
+      </profileDesc>
     </teiHeader>
     <text>
       <body>
         <div type="transkription">
           <p>
-            <l>110 CAN.</l>
             <l>PL.II.C.</l>
+            <l>110 CAN.</l>
           </p>
         </div>
         <div type="beskrivning">
           <p>Akterspegel till 110 kanoners linjeskepp. Kopparstick. Plansch II.C. ur Fredrik Henrik
             af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets
-            dimensioner 49,5x26,8 cm
-          </p>
+            dimensioner 26,8x49,5 cm.</p>
         </div>
       </body>
     </text>
@@ -546,7 +643,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <surfaceGrp n="PL.II.C.">
         <surface>
           <graphic xml:id="pl-ii-c-visning" url="docs/assets/img/visning/pl-ii-c-visning.jpg"/>
-          <graphic xml:id="pl-ii-c-thumbnail" url="docs/assets/img/thumbnail/pl-ii-c-thumbnail.jpg"/>
+          <graphic xml:id="pl-ii-c-thumbnail" url="docs/assets/img/thumbnail/pl-ii-c-thumbnail.jpg"
+          />
         </surface>
       </surfaceGrp>
     </facsimile>
@@ -566,6 +664,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <biblStruct>
             <analytic>
               <author>Fredrik Henrik af Chapman</author>
+              <editor>Okänd</editor>
             </analytic>
             <monogr>
               <imprint>
@@ -596,6 +695,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </msDesc>
         </sourceDesc>
       </fileDesc>
+      <profileDesc>
+        <textClass>
+          <keywords scheme="https://id.kb.se/term/sao">
+            <term ref="https://id.kb.se/term/sao/1800-talet">1800-talet</term>
+            <term ref="https://id.kb.se/term/sao/Kopparstick">kopparstick</term>
+            <term ref="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg</term>
+            <term ref="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri</term>
+            <term ref="https://id.kb.se/term/sao/Sverige">Sverige</term>
+            <term ref="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</term>
+          </keywords>
+        </textClass>
+      </profileDesc>
     </teiHeader>
     <text>
       <body>
@@ -606,10 +717,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </p>
         </div>
         <div type="beskrivning">
-          <p>80 kanoners linjeskepp, profil- och linjeritning. Kopparstick. Plansch IV.A. ur
-            Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804).
-            Papprets dimensioner: 49,7x111 cm
-          </p>
+          <p>80 kanoners linjeskepp, profil- och linjeritning. Kopparstick. Plansch IV.A. ur Fredrik
+            Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets
+            dimensioner 49,7x111 cm.</p>
         </div>
       </body>
     </text>
@@ -617,7 +727,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <surfaceGrp n="PL.IV.A.">
         <surface>
           <graphic xml:id="pl-iv-a-visning" url="docs/assets/img/visning/pl-iv-a-visning.jpg"/>
-          <graphic xml:id="pl-iv-a-thumbnail" url="docs/assets/img/thumbnail/pl-iv-a-thumbnail.jpg"/>
+          <graphic xml:id="pl-iv-a-thumbnail" url="docs/assets/img/thumbnail/pl-iv-a-thumbnail.jpg"
+          />
         </surface>
       </surfaceGrp>
     </facsimile>
@@ -637,6 +748,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <biblStruct>
             <analytic>
               <author>Fredrik Henrik af Chapman</author>
+              <editor>Okänd</editor>
             </analytic>
             <monogr>
               <imprint>
@@ -667,6 +779,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </msDesc>
         </sourceDesc>
       </fileDesc>
+      <profileDesc>
+        <textClass>
+          <keywords scheme="https://id.kb.se/term/sao">
+            <term ref="https://id.kb.se/term/sao/1800-talet">1800-talet</term>
+            <term ref="https://id.kb.se/term/sao/Kopparstick">kopparstick</term>
+            <term ref="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg</term>
+            <term ref="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri</term>
+            <term ref="https://id.kb.se/term/sao/Sverige">Sverige</term>
+            <term ref="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</term>
+          </keywords>
+        </textClass>
+      </profileDesc>
     </teiHeader>
     <text>
       <body>
@@ -679,8 +803,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <div type="beskrivning">
           <p>80 kanoners linjeskepp, spantritning. Kopparstick. Plansch IV.B. ur Fredrik Henrik af
             Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets dimensioner
-            33,8x30,4
-          </p>
+            33,8x30,4 cm.</p>
         </div>
       </body>
     </text>
@@ -688,7 +811,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <surfaceGrp n="PL.IV.B.">
         <surface>
           <graphic xml:id="pl-iv-b-visning" url="docs/assets/img/visning/pl-iv-b-visning.jpg"/>
-          <graphic xml:id="pl-iv-b-thumbnail" url="docs/assets/img/thumbnail/pl-iv-b-thumbnail.jpg"/>
+          <graphic xml:id="pl-iv-b-thumbnail" url="docs/assets/img/thumbnail/pl-iv-b-thumbnail.jpg"
+          />
         </surface>
       </surfaceGrp>
     </facsimile>
@@ -708,6 +832,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <biblStruct>
             <analytic>
               <author>Fredrik Henrik af Chapman</author>
+              <editor>Okänd</editor>
             </analytic>
             <monogr>
               <imprint>
@@ -738,6 +863,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </msDesc>
         </sourceDesc>
       </fileDesc>
+      <profileDesc>
+        <textClass>
+          <keywords scheme="https://id.kb.se/term/sao">
+            <term ref="https://id.kb.se/term/sao/1800-talet">1800-talet</term>
+            <term ref="https://id.kb.se/term/sao/Kopparstick">kopparstick</term>
+            <term ref="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg</term>
+            <term ref="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri</term>
+            <term ref="https://id.kb.se/term/sao/Sverige">Sverige</term>
+            <term ref="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</term>
+          </keywords>
+        </textClass>
+      </profileDesc>
     </teiHeader>
     <text>
       <body>
@@ -750,8 +887,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <div type="beskrivning">
           <p>Akterspegel till 80 kanoners linjeskepp. Kopparstick. Plansch IV.C. ur Fredrik Henrik
             af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets
-            dimensioner 25,5x31,3
-          </p>
+            dimensioner 25,5x31,3 cm.</p>
         </div>
       </body>
     </text>
@@ -759,16 +895,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <surfaceGrp n="PL.IV.C.">
         <surface>
           <graphic xml:id="pl-iv-c-visning" url="docs/assets/img/visning/pl-iv-c-visning.jpg"/>
-          <graphic xml:id="pl-iv-c-thumbnail" url="docs/assets/img/thumbnail/pl-iv-c-thumbnail.jpg"/>
+          <graphic xml:id="pl-iv-c-thumbnail" url="docs/assets/img/thumbnail/pl-iv-c-thumbnail.jpg"
+          />
         </surface>
       </surfaceGrp>
     </facsimile>
   </TEI>
-   <TEI>
+  <TEI>
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>PL.VII.A</title>
+          <title>PL.VII.A.</title>
         </titleStmt>
         <publicationStmt>
           <publisher>Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar</publisher>
@@ -797,7 +934,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <objectDesc form="Planschsamling">
                 <supportDesc material="Papper">
                   <support>
-                    <p>Pappersmaterial.</p>
+                    <p>Pappersmaterial</p>
                   </support>
                   <extent>1 blad<dimensions type="blad" unit="centimeter">
                       <height>45</height>
@@ -810,6 +947,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </msDesc>
         </sourceDesc>
       </fileDesc>
+      <profileDesc>
+        <textClass>
+          <keywords scheme="https://id.kb.se/term/sao">
+            <term ref="https://id.kb.se/term/sao/1800-talet">1800-talet</term>
+            <term ref="https://id.kb.se/term/sao/Kopparstick">kopparstick</term>
+            <term ref="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg</term>
+            <term ref="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri</term>
+            <term ref="https://id.kb.se/term/sao/Sverige">Sverige</term>
+            <term ref="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</term>
+          </keywords>
+        </textClass>
+      </profileDesc>
     </teiHeader>
     <text>
       <body>
@@ -822,7 +971,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <div type="beskrivning">
           <p>52 kanoners linjeskepp, profil- och linjeritning. Kopparstick. Plansch VII.A. ur
             Fredrik Henrik af Chapmans Plancher till theoretisk afhandling om linieskepp (1804).
-            Papprets dimensioner: 45x100,5 cm.</p>
+            Papprets dimensioner 45x100,5 cm.</p>
         </div>
       </body>
     </text>
@@ -830,7 +979,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <surfaceGrp n="PL.VII.A.">
         <surface>
           <graphic xml:id="pl-vii-a-visning" url="docs/assets/img/visning/pl-vii-a-visning.jpg"/>
-          <graphic xml:id="pl-vii-a-thumbnail" url="docs/assets/img/thumbnail/pl-vii-a-thumbnail.jpg"/>
+          <graphic xml:id="pl-vii-a-thumbnail"
+            url="docs/assets/img/thumbnail/pl-vii-a-thumbnail.jpg"/>
         </surface>
       </surfaceGrp>
     </facsimile>
@@ -868,7 +1018,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <objectDesc form="Planschsamling">
                 <supportDesc material="Papper">
                   <support>
-                    <p>Pappersmaterial.</p>
+                    <p>Pappersmaterial</p>
                   </support>
                   <extent>1 blad<dimensions type="blad" unit="centimeter">
                       <height>34,7</height>
@@ -881,20 +1031,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </msDesc>
         </sourceDesc>
       </fileDesc>
+      <profileDesc>
+        <textClass>
+          <keywords scheme="https://id.kb.se/term/sao">
+            <term ref="https://id.kb.se/term/sao/1800-talet">1800-talet</term>
+            <term ref="https://id.kb.se/term/sao/Kopparstick">kopparstick</term>
+            <term ref="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg</term>
+            <term ref="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri</term>
+            <term ref="https://id.kb.se/term/sao/Sverige">Sverige</term>
+            <term ref="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</term>
+          </keywords>
+        </textClass>
+      </profileDesc>
     </teiHeader>
     <text>
       <body>
         <div type="transkription">
           <p>
-            <l>52 Can.</l>
             <l>PL.VII.B.</l>
+            <l>52 Can.</l>
           </p>
         </div>
         <div type="beskrivning">
           <p>52 kanoners linjeskepp, spantritning. Kopparstick. Plansch VII.B. ur Fredrik Henrik af
-            Chapmans Plancher till theoretisk afhandling om linieskepp (1804).
-            Papprets dimensioner 34,7x26,4 cm.
-          </p>
+            Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets dimensioner
+            34,7x26,4 cm.</p>
         </div>
       </body>
     </text>
@@ -902,7 +1063,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <surfaceGrp n="PL.VII.B.">
         <surface>
           <graphic xml:id="pl-vii-b-visning" url="docs/assets/img/visning/pl-vii-b-visning.jpg"/>
-          <graphic xml:id="pl-vii-b-thumbnail" url="docs/assets/img/thumbnail/pl-vii-b-thumbnail.jpg"/>
+          <graphic xml:id="pl-vii-b-thumbnail"
+            url="docs/assets/img/thumbnail/pl-vii-b-thumbnail.jpg"/>
         </surface>
       </surfaceGrp>
     </facsimile>
@@ -940,7 +1102,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <objectDesc form="Planschsamling">
                 <supportDesc material="Papper">
                   <support>
-                    <p>Pappersmaterial.</p>
+                    <p>Pappersmaterial</p>
                   </support>
                   <extent>1 blad<dimensions type="blad" unit="centimeter">
                       <height>24</height>
@@ -953,20 +1115,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </msDesc>
         </sourceDesc>
       </fileDesc>
+      <profileDesc>
+        <textClass>
+          <keywords scheme="https://id.kb.se/term/sao">
+            <term ref="https://id.kb.se/term/sao/1800-talet">1800-talet</term>
+            <term ref="https://id.kb.se/term/sao/Kopparstick">kopparstick</term>
+            <term ref="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg</term>
+            <term ref="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri</term>
+            <term ref="https://id.kb.se/term/sao/Sverige">Sverige</term>
+            <term ref="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</term>
+          </keywords>
+        </textClass>
+      </profileDesc>
     </teiHeader>
     <text>
       <body>
         <div type="transkription">
           <p>
-            <l>52 Can. </l>
             <l>PL.VII.C.</l>
+            <l>52 Can.</l>
             <l>F.R.fc:</l>
           </p>
         </div>
         <div type="beskrivning">
           <p>Akterspegel till 52 kanoners linjeskepp. Kopparstick. Plansch VII.C. ur Fredrik Henrik
-            af Chapmans Plancher till theoretisk afhandling om linieskepp (1804).
-            Papprets dimensioner:  24x29 cm.</p>
+            af Chapmans Plancher till theoretisk afhandling om linieskepp (1804). Papprets
+            dimensioner 24x29 cm.</p>
         </div>
       </body>
     </text>
@@ -974,7 +1148,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <surfaceGrp n="PL.VII.C.">
         <surface>
           <graphic xml:id="pl-vii-c-visning" url="docs/assets/img/visning/pl-vii-c-visning.jpg"/>
-          <graphic xml:id="pl-vii-c-thumbnail" url="docs/assets/img/thumbnail/pl-vii-c-thumbnail.jpg"/>
+          <graphic xml:id="pl-vii-c-thumbnail"
+            url="docs/assets/img/thumbnail/pl-vii-c-thumbnail.jpg"/>
         </surface>
       </surfaceGrp>
     </facsimile>
