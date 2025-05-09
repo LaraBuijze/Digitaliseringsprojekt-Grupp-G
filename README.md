@@ -1,6 +1,6 @@
 # Skeppsritningar av Fredrik Henrik af Chapman
 
-Besök vår hemsida([HÄR](https://larabuijze.github.io/Digitaliseringsprojekt-Grupp-G/index.html))
+Besök vår hemsida [här](https://larabuijze.github.io/Digitaliseringsprojekt-Grupp-G/index.html)
 
 Detta är ett digitaliseringsprojekt som är utfört våren 2025 på Masterprogram i
 Biblioteks- och Informationsvetenskap, distansutbildning, vid Högskolan i Borås och inom
