@@ -23,7 +23,7 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="1Hem.html">Hem</a> | 
+                    <a href="index.html">Hem</a> | 
                     <a href="2Chapman.html">F.H. af Chapman</a> | 
                     <a href="3Omslag.html">Omslag</a> | 
                     <a href="4Skepp1.html">Skepp om 110 kanoner</a> | 
@@ -78,7 +78,7 @@
                                     <p>
                                         <strong>Länk till projektets GitHub:</strong>
                                         <br/>
-              <!-- FYLL I!! -->         <a href="">GITHUB</a>
+                                       <a href="https://github.com/LaraBuijze/Digitaliseringsprojekt-Grupp-G">GITHUB</a>
                                         
                                     </p>
                                 </article>
