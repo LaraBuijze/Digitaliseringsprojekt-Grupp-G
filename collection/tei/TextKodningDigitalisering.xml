@@ -215,7 +215,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </particDesc>
     </profileDesc>
   </teiHeader>
-  <TEI>
+  <TEI xml:id="Framsida">
     <teiHeader>
       <fileDesc>
         <titleStmt>
