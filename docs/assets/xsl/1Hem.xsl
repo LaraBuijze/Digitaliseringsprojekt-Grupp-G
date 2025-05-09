@@ -78,7 +78,7 @@
                                     <p>
                                         <strong>Länk till projektets GitHub:</strong>
                                         <br/>
-                                       <a href="https://github.com/LaraBuijze/Digitaliseringsprojekt-Grupp-G">GITHUB</a>
+                                        <a href="https://github.com/LaraBuijze/Digitaliseringsprojekt-Grupp-G/tree/main/docs">GITHUB</a>
                                         
                                     </p>
                                 </article>
