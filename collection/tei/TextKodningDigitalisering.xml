@@ -276,17 +276,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>F.H. AF CHAPMAN</l>
-            <l>PLANCHER</l>
-            <l>TILL</l>
-            <l>THEORETISK AFHANDLING</l>
-            <l>OM</l>
-            <l>LINIESKEPP</l>
-            <l>UTGIFNE ÅR 1804.</l>
+            F.H. AF CHAPMAN
+            <lb/>PLANCHER
+            <lb/>TILL
+            <lb/>THEORETISK AFHANDLING
+            <lb/>OM
+            <lb/>LINIESKEPP
+            <lb/>UTGIFNE ÅR 1804.
           </p>
           <p>
-            <l>A.</l>
-            <l>1B.</l>
+            A.
+            <lb/>1B.
           </p>
         </div>
         <div type="beskrivning">
@@ -305,7 +305,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  <TEI>
+  <TEI xml:id="Insida">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -368,16 +368,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>Kungl. Marinförvaltningens</l>
-            <l>Ingenjöravdelning</l>
+            Kungl. Marinförvaltningens
+            <lb/>Ingenjöravdelning
           </p>
           <p>
-            <l>P 2.13</l>
-            <l>SJÖHISTORISKA MUSEET</l>
-            <l>Biblioteket</l>
-            <l>Stockholm</l>
-            <l>Rar. Saml. Ref</l>
-            <l>Bordet 810505/3</l>
+            P 2.13
+            <lb/>SJÖHISTORISKA MUSEET
+            <lb/>Biblioteket
+            <lb/>Stockholm
+            <lb/>Rar. Saml. Ref
+            <lb/>Bordet 810505/3
           </p>
         </div>
         <div type="beskrivning">
@@ -395,7 +395,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  <TEI>
+  <TEI xml:id="PL.II.A.">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -458,8 +458,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>110 CAN.</l>
-            <l>PL.II.A.</l>
+            110 CAN.
+            <lb/>PL.II.A.
           </p>
         </div>
         <div type="beskrivning">
@@ -479,7 +479,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  <TEI>
+  <TEI xml:id="PL.II.B.">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -542,8 +542,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>PL.II.B.</l>
-            <l>110 CAN.</l>
+            PL.II.B.
+            <lb/>110 CAN.
           </p>
         </div>
         <div type="beskrivning">
@@ -563,7 +563,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  <TEI>
+  <TEI xml:id="PL.II.C.">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -626,8 +626,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>PL.II.C.</l>
-            <l>110 CAN.</l>
+            PL.II.C.
+            <lb/>110 CAN.
           </p>
         </div>
         <div type="beskrivning">
@@ -647,7 +647,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  <TEI>
+  <TEI xml:id="PL.IV.A.">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -710,8 +710,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>80 CAN.</l>
-            <l>PL.IV.A.</l>
+            80 CAN.
+            <lb/>PL.IV.A.
           </p>
         </div>
         <div type="beskrivning">
@@ -731,7 +731,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  <TEI>
+  <TEI xml:id="PL.IV.B.">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -794,8 +794,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>PL.IV.B.</l>
-            <l>80 CAN.</l>
+            PL.IV.B.
+            <lb/>80 CAN.
           </p>
         </div>
         <div type="beskrivning">
@@ -815,7 +815,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  <TEI>
+  <TEI xml:id="PL.IV.C.">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -878,8 +878,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>80 CAN.</l>
-            <l>PL.IV.C.</l>
+            80 CAN.
+            <lb/>PL.IV.C.
           </p>
         </div>
         <div type="beskrivning">
@@ -899,7 +899,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  <TEI>
+  <TEI xml:id="PL.VII.A.">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -962,8 +962,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>52 Can.</l>
-            <l>PL.VII.A.</l>
+            <lb/>52 Can.
+            <lb/>PL.VII.A.
           </p>
         </div>
         <div type="beskrivning">
@@ -983,7 +983,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  <TEI>
+  <TEI xml:id="PL.VII.B.">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -1046,8 +1046,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>PL.VII.B.</l>
-            <l>52 Can.</l>
+            PL.VII.B.
+            <lb/>52 Can.
           </p>
         </div>
         <div type="beskrivning">
@@ -1067,7 +1067,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </surfaceGrp>
     </facsimile>
   </TEI>
-  <TEI>
+  <TEI xml:id="PL.VII.C.">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -1130,9 +1130,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
         <div type="transkription">
           <p>
-            <l>PL.VII.C.</l>
-            <l>52 Can.</l>
-            <l>F.R.fc:</l>
+            PL.VII.C.
+            <lb/>52 Can.
+            <lb/>F.R.fc:
           </p>
         </div>
         <div type="beskrivning">

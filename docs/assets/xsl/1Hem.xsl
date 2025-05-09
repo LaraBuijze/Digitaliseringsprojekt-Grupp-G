@@ -34,18 +34,18 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm">
-                                <article id="collection">
+                                <article id="Framsida">
                                     <xsl:for-each
-                                        select="//tei:tei[@xml:id = 'Framsida']/tei:text/tei:facsimile/tei:surfaceGrp/tei:surface">
+                                        select="//tei:TEI[@xml:id = 'Framsida']/tei:text/tei:facsimile/tei:surfaceGrp/tei:surface">
                                         <img class="thumbnail">
-                                            <xsl:attribute name="framsida">
+                                            <xsl:attribute name="src">
                                                 <xsl:value-of
-                                                    select="//tei:tei[@xml:id = 'Framsida']/tei:text/tei:facsimile/tei:surfaceGrp/tei:surface/tei:graphic[2]/@url"
+                                                    select="//tei:surfaceGrp[@n = 'framsida']/tei:surface/tei:graphic[@xml:id = 'framsida-thumbnail']/@url"
                                                 />
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
                                                 <xsl:value-of
-                                                  select="//tei:tei[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                                  select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                 > </xsl:value-of>
                                             </xsl:attribute>
                                         </img>
@@ -75,6 +75,12 @@
                                         <xsl:apply-templates select="//tei:titleStmt/tei:principal"
                                         />
                                     </p>
+                                    <p>
+                                        <strong>Länk till projektets GitHub:</strong>
+                                        <br/>
+              <!-- FYLL I!! -->         <a href="">GITHUB</a>
+                                        
+                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -86,7 +92,8 @@
                             <div class="copyright_logos">
                                 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
                                     <img src="assets/img/logos/cc-zero.png" class="Public-Domain"
-                                        alt="Public Domain License"/>
+                                        alt="Public Domain License" />
+                                    <style> img {width: 10%; height: auto} </style>
                                 </a>
                             </div>
                         </div>
@@ -107,7 +114,20 @@
 
     <xsl:template match="tei:teiHeader"/>
 
-    <xsl:template match="tei:l">
+    <xsl:template match="tei:lb">
         <br/>
+    </xsl:template>
+    
+    <xsl:template match="tei:ref">
+        <a href="{@target}">
+            <xsl:value-of select="." />
+        </a>
+        <br/>
+    </xsl:template>
+    
+    <xsl:template match="tei:idno">
+        <a href="{.}">
+            <xsl:value-of select="." />
+        </a>
     </xsl:template>
 </xsl:stylesheet>

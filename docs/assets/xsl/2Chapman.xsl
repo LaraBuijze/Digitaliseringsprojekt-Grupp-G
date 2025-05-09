@@ -46,10 +46,7 @@
                                 <br/><br/>
                                 <strong>Referenser:</strong>
                                 <br/>
-                                
-                                    <xsl:apply-templates select="//tei:person/tei:note/tei:ref/@target"/>
-                                   
-                                
+                                <xsl:apply-templates select="//tei:person/tei:note/tei:ref"/>
                             </p>
                         </div>
                     </div>
@@ -61,6 +58,7 @@
                                 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
                                     <img src="assets/img/logos/cc-zero.png" class="Public-Domain"
                                         alt="Public Domain License"/>
+                                    <style> img {width: 10%; height: auto} </style>
                                 </a>
                             </div>
                         </div>
@@ -81,7 +79,21 @@
 
     <xsl:template match="tei:teiHeader"/>
 
-    <xsl:template match="tei:l">
+    <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
+    
+    <xsl:template match="tei:ref">
+        <a href="{@target}">
+            <xsl:value-of select="." />
+        </a>
+        <br/>
+    </xsl:template>
+    
+    <xsl:template match="tei:idno">
+        <a href="{.}">
+            <xsl:value-of select="." />
+        </a>
+    </xsl:template>
+    
 </xsl:stylesheet>
