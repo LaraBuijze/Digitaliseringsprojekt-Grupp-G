@@ -3,18 +3,16 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
-    <xsl:template match="tei:TEI">
+    <xsl:template match="tei:teiCorpus">
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <xsl:text>&#xa;</xsl:text>
-        <html lang="swe" xml:lang="swe">
+        <html lang="sv" xml:lang="sv">
             <head>
-                <title> Skeppsritningar av F.H. af Chapman: Hem </title>
-                <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
+                <title>Skeppsritningar av F.H. af Chapman: Hem</title>
                 <link rel="stylesheet"
                     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
                     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
                     crossorigin="anonymous"/>
-                <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
                 <link rel="stylesheet" href="assets/css/desktop.css"/>
             </head>
@@ -25,36 +23,35 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="1Hem.html">Hem</a> | <a href="2Chapman.html">F.H. af Chapman</a> | <a
-                        href="3Omslag.html">Omslag</a> | <a href="4Skepp1.html">Skepp om 110
-                        kanoner</a> | <a href="5Skepp2.html">Skepp om 80 kanoner</a> | <a
-                        href="6Skepp3.html">Skepp om 52 kanoner</a> | </nav>
+                    <a href="1Hem.html">Hem</a> | 
+                    <a href="2Chapman.html">F.H. af Chapman</a> | 
+                    <a href="3Omslag.html">Omslag</a> | 
+                    <a href="4Skepp1.html">Skepp om 110 kanoner</a> | 
+                    <a href="5Skepp2.html">Skepp om 80 kanoner</a> | 
+                    <a href="6Skepp3.html">Skepp om 52 kanoner</a> | 
+                </nav>
                 <main id="manuscript">
-                    <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
-                        <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
-                            <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                                 <article id="collection">
                                     <xsl:for-each
-                                        select="//tei:tei[@xml:id = 'framsida']/tei:text/tei:facsimile/tei:surfaceGrp/tei:surface">
+                                        select="//tei:tei[@xml:id = 'Framsida']/tei:text/tei:facsimile/tei:surfaceGrp/tei:surface">
                                         <img class="thumbnail">
                                             <xsl:attribute name="framsida">
                                                 <xsl:value-of
-                                                  select="tei:tei[@xml:id = 'framsida']/tei:text/tei:facsimile/tei:surfaceGrp/tei:surface/tei:graphic['framsida-thumbnail']/@url"
+                                                    select="//tei:tei[@xml:id = 'Framsida']/tei:text/tei:facsimile/tei:surfaceGrp/tei:surface/tei:graphic[2]/@url"
                                                 />
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
                                                 <xsl:value-of
-                                                  select="tei:tei[@xml:id = 'framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                                  select="//tei:tei[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                 > </xsl:value-of>
                                             </xsl:attribute>
                                         </img>
                                     </xsl:for-each>
                                 </article>
                             </div>
-                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="description">
                                     <p>
@@ -68,12 +65,12 @@
                             <div class="col-sm">
                                 <article id="details">
                                     <p>
-                                        <strong>Author:</strong>
+                                        <strong>Skapare:</strong>
                                         <br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
                                     </p>
                                     <p>
-                                        <strong>Transcription by:</strong>
+                                        <strong>Digitaliserats av:</strong>
                                         <br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:principal"
                                         />
@@ -102,21 +99,14 @@
         </html>
     </xsl:template>
 
-    <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
-            <!-- apply matching templates for anything that was nested in tei:p -->
             <xsl:apply-templates/>
         </p>
     </xsl:template>
 
-    <!-- by default all text nodes are printed out, unless something else is defined.
-    We don't want to show the metadata. So we write a template for the teiHeader that
-    stops the text nodes underneath (=nested in) teiHeader from being printed into our
-    html-->
     <xsl:template match="tei:teiHeader"/>
 
-    <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
     <xsl:template match="tei:l">
         <br/>
     </xsl:template>
