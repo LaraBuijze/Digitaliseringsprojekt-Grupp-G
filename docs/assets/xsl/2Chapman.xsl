@@ -33,7 +33,7 @@
                 <main id="manuscript">
                     <div class="container">
                         <div>
-                            <p>
+                            
                                 <strong><xsl:apply-templates select="//tei:person/tei:persName"
                                     /></strong> &#160; <br/>
                                 <xsl:apply-templates select="//tei:person/tei:note/tei:p"/>
@@ -47,7 +47,7 @@
                                 <strong>Referenser:</strong>
                                 <br/>
                                 <xsl:apply-templates select="//tei:person/tei:note/tei:ref"/>
-                            </p>
+                           
                         </div>
                     </div>
                 </main>

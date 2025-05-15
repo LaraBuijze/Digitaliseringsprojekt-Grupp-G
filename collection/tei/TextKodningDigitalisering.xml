@@ -297,9 +297,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
       <surfaceGrp n="framsida">
         <surface>
-          <graphic xml:id="framsida-visning" url="../docs/assets/img/visning/framsida-visning.jpg"/>
+          <graphic xml:id="framsida-visning" url="../../docs/assets/img/visning/framsida-visning.jpg"/>
           <graphic xml:id="framsida-thumbnail"
-            url="../docs/assets/img/thumbnail/framsida-thumbnail.jpg"/>
+            url="../../docs/assets/img/thumbnail/framsida-thumbnail.jpg"/>
         </surface>
       </surfaceGrp>
     </facsimile>
@@ -388,8 +388,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
       <surfaceGrp n="insida">
         <surface>
-          <graphic xml:id="insida-visning" url="docs/assets/img/visning/insida-visning.jpg"/>
-          <graphic xml:id="insida-thumbnail" url="docs/assets/img/thumbnail/insida-thumbnail.jpg"/>
+          <graphic xml:id="insida-visning" url="../docs/assets/img/visning/insida-visning.jpg"/>
+          <graphic xml:id="insida-thumbnail" url="../docs/assets/img/thumbnail/insida-thumbnail.jpg"/>
         </surface>
       </surfaceGrp>
     </facsimile>
@@ -471,8 +471,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
       <surfaceGrp n="PL.II.A.">
         <surface>
-          <graphic xml:id="pl-ii-a-visning" url="docs/assets/img/visning/pl-ii-a-visning.jpg"/>
-          <graphic xml:id="pl-ii-a-thumbnail" url="docs/assets/img/thumbnail/pl-ii-a-thumbnail.jpg"
+          <graphic xml:id="pl-ii-a-visning" url="../docs/assets/img/visning/pl-ii-a-visning.jpg"/>
+          <graphic xml:id="pl-ii-a-thumbnail" url="../docs/assets/img/thumbnail/pl-ii-a-thumbnail.jpg"
           />
         </surface>
       </surfaceGrp>
@@ -555,8 +555,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
       <surfaceGrp n="PL.II.B.">
         <surface>
-          <graphic xml:id="pl-ii-b-visning" url="docs/assets/img/visning/pl-ii-b-visning.jpg"/>
-          <graphic xml:id="pl-ii-b-thumbnail" url="docs/assets/img/thumbnail/pl-ii-b-thumbnail.jpg"
+          <graphic xml:id="pl-ii-b-visning" url="../docs/assets/img/visning/pl-ii-b-visning.jpg"/>
+          <graphic xml:id="pl-ii-b-thumbnail" url="../docs/assets/img/thumbnail/pl-ii-b-thumbnail.jpg"
           />
         </surface>
       </surfaceGrp>
@@ -639,8 +639,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
       <surfaceGrp n="PL.II.C.">
         <surface>
-          <graphic xml:id="pl-ii-c-visning" url="docs/assets/img/visning/pl-ii-c-visning.jpg"/>
-          <graphic xml:id="pl-ii-c-thumbnail" url="docs/assets/img/thumbnail/pl-ii-c-thumbnail.jpg"
+          <graphic xml:id="pl-ii-c-visning" url="../docs/assets/img/visning/pl-ii-c-visning.jpg"/>
+          <graphic xml:id="pl-ii-c-thumbnail" url="../docs/assets/img/thumbnail/pl-ii-c-thumbnail.jpg"
           />
         </surface>
       </surfaceGrp>
@@ -723,8 +723,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
       <surfaceGrp n="PL.IV.A.">
         <surface>
-          <graphic xml:id="pl-iv-a-visning" url="docs/assets/img/visning/pl-iv-a-visning.jpg"/>
-          <graphic xml:id="pl-iv-a-thumbnail" url="docs/assets/img/thumbnail/pl-iv-a-thumbnail.jpg"
+          <graphic xml:id="pl-iv-a-visning" url="../docs/assets/img/visning/pl-iv-a-visning.jpg"/>
+          <graphic xml:id="pl-iv-a-thumbnail" url="../docs/assets/img/thumbnail/pl-iv-a-thumbnail.jpg"
           />
         </surface>
       </surfaceGrp>
@@ -807,8 +807,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
       <surfaceGrp n="PL.IV.B.">
         <surface>
-          <graphic xml:id="pl-iv-b-visning" url="docs/assets/img/visning/pl-iv-b-visning.jpg"/>
-          <graphic xml:id="pl-iv-b-thumbnail" url="docs/assets/img/thumbnail/pl-iv-b-thumbnail.jpg"
+          <graphic xml:id="pl-iv-b-visning" url="../docs/assets/img/visning/pl-iv-b-visning.jpg"/>
+          <graphic xml:id="pl-iv-b-thumbnail" url="../docs/assets/img/thumbnail/pl-iv-b-thumbnail.jpg"
           />
         </surface>
       </surfaceGrp>
@@ -891,8 +891,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
       <surfaceGrp n="PL.IV.C.">
         <surface>
-          <graphic xml:id="pl-iv-c-visning" url="docs/assets/img/visning/pl-iv-c-visning.jpg"/>
-          <graphic xml:id="pl-iv-c-thumbnail" url="docs/assets/img/thumbnail/pl-iv-c-thumbnail.jpg"
+          <graphic xml:id="pl-iv-c-visning" url="../docs/assets/img/visning/pl-iv-c-visning.jpg"/>
+          <graphic xml:id="pl-iv-c-thumbnail" url="../docs/assets/img/thumbnail/pl-iv-c-thumbnail.jpg"
           />
         </surface>
       </surfaceGrp>
@@ -975,9 +975,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
       <surfaceGrp n="PL.VII.A.">
         <surface>
-          <graphic xml:id="pl-vii-a-visning" url="docs/assets/img/visning/pl-vii-a-visning.jpg"/>
+          <graphic xml:id="pl-vii-a-visning" url="../docs/assets/img/visning/pl-vii-a-visning.jpg"/>
           <graphic xml:id="pl-vii-a-thumbnail"
-            url="docs/assets/img/thumbnail/pl-vii-a-thumbnail.jpg"/>
+            url="../docs/assets/img/thumbnail/pl-vii-a-thumbnail.jpg"/>
         </surface>
       </surfaceGrp>
     </facsimile>
@@ -1059,9 +1059,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
       <surfaceGrp n="PL.VII.B.">
         <surface>
-          <graphic xml:id="pl-vii-b-visning" url="docs/assets/img/visning/pl-vii-b-visning.jpg"/>
+          <graphic xml:id="pl-vii-b-visning" url="../docs/assets/img/visning/pl-vii-b-visning.jpg"/>
           <graphic xml:id="pl-vii-b-thumbnail"
-            url="docs/assets/img/thumbnail/pl-vii-b-thumbnail.jpg"/>
+            url="../docs/assets/img/thumbnail/pl-vii-b-thumbnail.jpg"/>
         </surface>
       </surfaceGrp>
     </facsimile>
@@ -1144,9 +1144,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
       <surfaceGrp n="PL.VII.C.">
         <surface>
-          <graphic xml:id="pl-vii-c-visning" url="docs/assets/img/visning/pl-vii-c-visning.jpg"/>
+          <graphic xml:id="pl-vii-c-visning" url="../docs/assets/img/visning/pl-vii-c-visning.jpg"/>
           <graphic xml:id="pl-vii-c-thumbnail"
-            url="docs/assets/img/thumbnail/pl-vii-c-thumbnail.jpg"/>
+            url="../docs/assets/img/thumbnail/pl-vii-c-thumbnail.jpg"/>
         </surface>
       </surfaceGrp>
     </facsimile>
