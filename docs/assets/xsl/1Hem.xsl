@@ -34,13 +34,12 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm">
-                                <article id="Framsida">
-                                    <xsl:for-each
-                                        select="//tei:TEI[@xml:id = 'Framsida']/tei:text/tei:facsimile/tei:surfaceGrp/tei:surface">
-                                        <img class="thumbnail">
+                                <article>
+                                    
+                                        <img width="500">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of
-                                                    select="//tei:surfaceGrp[@n = 'framsida']/tei:surface/tei:graphic[@xml:id = 'framsida-thumbnail']/@url"
+                                                    select="//tei:surfaceGrp[@n = 'framsida']/tei:surface/tei:graphic[@xml:id = 'framsida-visning']/@url"
                                                 />
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
@@ -48,16 +47,21 @@
                                                   select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                 > </xsl:value-of>
                                             </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of
+                                                    select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                                    > </xsl:value-of>
+                                            </xsl:attribute>
                                         </img>
-                                    </xsl:for-each>
+                                    
                                 </article>
                             </div>
                             <div class="col-sm">
                                 <article id="description">
-                                    <p>
+                                    <div>
                                         <strong>Beskrivning:</strong> &#160; <xsl:apply-templates
                                             select="//tei:projectDesc"/>
-                                    </p>
+                                    </div>
                                 </article>
                             </div>
                         </div>
@@ -93,7 +97,7 @@
                                 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
                                     <img src="assets/img/logos/cc-zero.png" class="Public-Domain"
                                         alt="Public Domain License" />
-                                    <style> img {width: 10%; height: auto} </style>
+                                    <!-- <style> img {width: 10%; height: auto} </style> -->
                                 </a>
                             </div>
                         </div>
