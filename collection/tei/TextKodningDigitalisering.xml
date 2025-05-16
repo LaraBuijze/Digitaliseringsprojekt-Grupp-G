@@ -297,9 +297,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
       <surfaceGrp n="framsida">
         <surface>
-          <graphic xml:id="framsida-visning" url="../../docs/assets/img/visning/framsida-visning.jpg"/>
+          <graphic xml:id="framsida-visning" url="docs/assets/img/visning/framsida-visning.jpg"/>
           <graphic xml:id="framsida-thumbnail"
-            url="../../docs/assets/img/thumbnail/framsida-thumbnail.jpg"/>
+            url="docs/assets/img/thumbnail/framsida-thumbnail.jpg"/>
         </surface>
       </surfaceGrp>
     </facsimile>
