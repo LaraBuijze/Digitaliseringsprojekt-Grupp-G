@@ -50,7 +50,7 @@
                                 <div class="col-sm">
                                     <div class="row">
                                         <article id="Framsida">
-                                            <img class="img-full">
+                                            <img width="500">
                                                 <xsl:attribute name="src">
                                                   <xsl:value-of
                                                   select="//tei:surfaceGrp[@n = 'framsida']/tei:surface/tei:graphic[@xml:id = 'framsida-visning']/@url"
@@ -137,7 +137,7 @@
                                 <div class="col-sm">
                                     <div class="row">
                                         <article id="Insida">
-                                            <img class="img-full">
+                                            <img width="500">
                                                 <xsl:attribute name="src">
                                                   <xsl:value-of
                                                   select="//tei:surfaceGrp[@n = 'insida']/tei:surface/tei:graphic[@xml:id = 'insida-visning']/@url"
