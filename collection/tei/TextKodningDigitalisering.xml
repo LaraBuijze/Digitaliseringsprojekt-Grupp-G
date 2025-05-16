@@ -639,8 +639,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
       <surfaceGrp n="PL.II.C.">
         <surface>
-          <graphic xml:id="pl-ii-c-visning" url="../../docs/assets/img/visning/pl-ii-c-visning.jpg"/>
-          <graphic xml:id="pl-ii-c-thumbnail" url="../../docs/assets/img/thumbnail/pl-ii-c-thumbnail.jpg"
+          <graphic xml:id="pl-ii-c-visning" url="docs/assets/img/visning/pl-ii-c-visning.jpg"/>
+          <graphic xml:id="pl-ii-c-thumbnail" url="docs/assets/img/thumbnail/pl-ii-c-thumbnail.jpg"
           />
         </surface>
       </surfaceGrp>
