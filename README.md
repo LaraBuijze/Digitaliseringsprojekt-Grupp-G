@@ -13,7 +13,9 @@ Plancher till Theoretisk Afhandling om Linieskepp utgifne år 1804. Ett urval gj
 representativt för samlingen: tre skepp med olika mängd kanoner och tillika varierande mängd 
 storlek på kopparsticken (det vill säga, olika mått vad gäller själva storleken på materialet) 
 ledde till sammanlagt nio kopparstick som skannades. Ytterligare skannades också framsidan och 
-insidan av pärmen, följaktligen resulterade detta i elva enskilda skanningar.
+insidan av pärmen, följaktligen resulterade detta i elva enskilda skanningar. Redigerade bilder 
+med inbäddade metadata i tiff- och xcf-format finns att hämta [här](https://boras-my.sharepoint.com/:f:/g/personal/s2412340_student_hb_se/Ei3LAR-imxBGq3ORBjWKZ3oBBnIaDAdrUTPc5vyb2cPrXw?e=wwPvzV).
+
 
 Digitaliseringsprojektet är utförd av Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar. 
 GitHub användes under projektet och för publiceringen av materialet. Mallen till hemsidan är skapad
