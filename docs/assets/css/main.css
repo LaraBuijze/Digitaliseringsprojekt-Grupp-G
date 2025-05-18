@@ -100,3 +100,18 @@ footer {
   margin-top: 85px;
   margin-left: 30px;
 }
+
+* {box-sizing: border-box;}
+
+.button-default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.button-default:hover {
+  background: #e7e7e7;
+}
+
+#collection {
+    display: flex;
+}

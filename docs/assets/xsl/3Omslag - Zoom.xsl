@@ -16,6 +16,7 @@
                     crossorigin="anonymous"/>
                 <link rel="stylesheet" href="docs/assets/css/main.css"/>
                 <link rel="stylesheet" href="docs/assets/css/desktop.css"/>
+                <script src="functions.js"></script>
             </head>
             <body>
                 <header>
