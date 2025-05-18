@@ -19,42 +19,40 @@
             <body>
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                        <xsl:apply-templates
+                            select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                        />
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Hem</a> | 
-                    <a href="2Chapman.html">F.H. af Chapman</a> | 
-                    <a href="3Omslag.html">Omslag</a> | 
-                    <a href="Omslag-Zoom.html">Omslag-Zoom</a>
-                    <a href="4Skepp1.html">Skepp om 110 kanoner</a> | 
-                    <a href="5Skepp2.html">Skepp om 80 kanoner</a> | 
-                    <a href="6Skepp3.html">Skepp om 52 kanoner</a> | 
-                </nav>
+                    <a href="index.html">Hem</a> | <a href="2Chapman.html">F.H. af Chapman</a> | <a
+                        href="3Omslag.html">Omslag</a> | <a href="4Skepp1.html">Skepp om 110
+                        kanoner</a> | <a href="5Skepp2.html">Skepp om 80 kanoner</a> | <a
+                        href="6Skepp3.html">Skepp om 52 kanoner</a> | </nav>
                 <main id="manuscript">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm">
                                 <article>
-                                    
+
                                     <img class="img-full">
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of
-                                                    select="//tei:surfaceGrp[@n = 'framsida']/tei:surface/tei:graphic[@xml:id = 'framsida-visning']/@url"
-                                                />
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of
-                                                  select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
-                                                > </xsl:value-of>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of
-                                                    select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
-                                                    > </xsl:value-of>
-                                            </xsl:attribute>
-                                        </img>
-                                    
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of
+                                                select="//tei:surfaceGrp[@n = 'framsida']/tei:surface/tei:graphic[@xml:id = 'framsida-visning']/@url"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of
+                                                select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                            > </xsl:value-of>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of
+                                                select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                            > </xsl:value-of>
+                                        </xsl:attribute>
+                                    </img>
+
                                 </article>
                             </div>
                             <div class="col-sm">
@@ -83,8 +81,10 @@
                                     <p>
                                         <strong>Länk till projektets GitHub:</strong>
                                         <br/>
-                                        <a href="https://github.com/LaraBuijze/Digitaliseringsprojekt-Grupp-G/tree/main/docs">GITHUB</a>
-                                        
+                                        <a
+                                            href="https://github.com/LaraBuijze/Digitaliseringsprojekt-Grupp-G/tree/main/docs"
+                                            >GITHUB</a>
+
                                     </p>
                                 </article>
                             </div>
@@ -96,8 +96,9 @@
                         <div class="col-sm copyright">
                             <div class="copyright_logos">
                                 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                                    <img src="docs/assets/img/logos/cc-zero.png" class="Public-Domain"
-                                        alt="Public Domain License" width="10%"/>
+                                    <img src="docs/assets/img/logos/cc-zero.png"
+                                        class="Public-Domain" alt="Public Domain License"
+                                        width="10%"/>
                                     <!-- <style> img {width: 10%; height: auto} </style> -->
                                 </a>
                             </div>
@@ -122,17 +123,17 @@
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
-    
+
     <xsl:template match="tei:ref">
         <a href="{@target}">
-            <xsl:value-of select="." />
+            <xsl:value-of select="."/>
         </a>
         <br/>
     </xsl:template>
-    
+
     <xsl:template match="tei:idno">
         <a href="{.}">
-            <xsl:value-of select="." />
+            <xsl:value-of select="."/>
         </a>
     </xsl:template>
 </xsl:stylesheet>
