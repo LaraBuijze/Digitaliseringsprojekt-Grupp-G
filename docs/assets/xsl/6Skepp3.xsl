@@ -319,7 +319,7 @@
                             </div>
                         </div>
                     </div>
-                                  </main>
+                </main>
                 <footer>
                     <div class="row" id="footer">
                         <div class="col-sm copyright">
