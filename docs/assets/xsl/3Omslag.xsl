@@ -46,184 +46,240 @@
                                 <h3>Metadata</h3>
                             </div>
                             <div class="col-sm"> </div>
-                            <div class="row">
-                                <div class="col-sm">
-                                    <div class="row">
-                                        <article id="Framsida">
-                                            <img width="500">
-                                                <xsl:attribute name="src">
-                                                  <xsl:value-of
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+                                <article id="Framsida">
+                                    <img class="img-full">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of
+                                                select="//tei:surfaceGrp[@n = 'framsida']/tei:surface/tei:graphic[@xml:id = 'framsida-visning']/@url"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of
+                                                select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of
+                                                select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                            />
+                                        </xsl:attribute>
+                                    </img>
+                                    <div class="img-zoom-container">
+                                        <img id="Framsida" width="300">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of
                                                   select="//tei:surfaceGrp[@n = 'framsida']/tei:surface/tei:graphic[@xml:id = 'framsida-visning']/@url"
-                                                  />
-                                                </xsl:attribute>
-                                                <xsl:attribute name="title">
-                                                  <xsl:value-of
-                                                  select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
-                                                  />
-                                                </xsl:attribute>
-                                                <xsl:attribute name="alt">
-                                                  <xsl:value-of
-                                                  select="//tei:TEI[@xml:id = 'Framsida']/tei:text/tei:body/tei:div[@type = 'beskrivning']"
-                                                  />
-                                                </xsl:attribute>
-                                            </img>
-                                        </article>
+                                                />
+                                            </xsl:attribute>
+                                        </img>
                                     </div>
-
-                                </div>
-                                <div class="col-sm">
-                                    <div class="row"> </div>
-                                </div>
-                                <div class="col-sm">
-                                    <div class="row">
-                                        <article class="transkription">
-                                            <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'Framsida']/tei:text/tei:body/tei:div[@type = 'transkription']/tei:p"
-                                            />
-                                        </article>
-                                    </div>
-                                </div>
-                                <div class="col-sm">
-                                    <div class="row">
-                                        <article class="metadata">
-                                            <u>Titel:</u>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-                                            <br/>
-                                            <u>Skapare:</u>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:analytic/tei:author"/>
-                                            <br/>
-                                            <u>Beskrivning:</u>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'Framsida']/tei:text/tei:body/tei:div[@type = 'beskrivning']/tei:p"
-                                            />
-                                        </article>
-                                    </div>
-                                </div>
-                                <div class="col-sm">
-                                    <div class="row">
-                                        <article class="metadata">
-                                            <u>Nyckelord:</u>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords"/>
-                                            <br/>
-                                            <u>Digitaliserats av:</u>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:apply-templates
-                                                select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor"/>
-                                            <br/>
-                                            <u>Skanner:</u>
-                                            <xsl:text> </xsl:text>
-                                            <br/>
-                                            <xsl:apply-templates
-                                                select="//tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:appInfo/tei:application/tei:label"/>
-                                            <br/>
-                                            <u>Upphovsrätt:</u>
-                                            <xsl:text> </xsl:text>
-                                            <br/>
-                                            <xsl:apply-templates
-                                                select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability"/>
-                                            <br/>
-                                        </article>
-                                    </div>
-                                </div>
+                                </article>
                             </div>
-                            <div class="row">
-                                <div class="col-sm">
-                                    <div class="row">
-                                        <article id="Insida">
-                                            <img width="500">
-                                                <xsl:attribute name="src">
-                                                  <xsl:value-of
-                                                  select="//tei:surfaceGrp[@n = 'insida']/tei:surface/tei:graphic[@xml:id = 'insida-visning']/@url"
-                                                  />
-                                                </xsl:attribute>
-                                                <xsl:attribute name="title">
-                                                  <xsl:value-of
-                                                  select="//tei:TEI[@xml:id = 'Insida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
-                                                  />
-                                                </xsl:attribute>
-                                                <xsl:attribute name="alt">
-                                                  <xsl:value-of
-                                                  select="//tei:TEI[@xml:id = 'Insida']/tei:text/tei:body/tei:div[@type = 'beskrivning']"
-                                                  />
-                                                </xsl:attribute>
-                                            </img>
-                                        </article>
-                                    </div>
 
-                                </div>
-                                <div class="col-sm">
-                                    <div class="row"> </div>
-                                </div>
-                                <div class="col-sm">
+                            <div class="col-sm">
+                                <div id="myresult" class="img-zoom-result"/>
 
-                                    <div class="row">
-                                        <article class="transkription">
-                                            <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'Insida']/tei:text/tei:body/tei:div[@type = 'transkription']/tei:p"/>
 
-                                        </article>
-                                    </div>
-                                </div>
-                                <div class="col-sm">
-
-                                    <div class="row">
-                                        <article class="metadata">
-                                            <u>Titel:</u>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'Insida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-                                            <br/>
-                                            <u>Skapare:</u>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'Insida']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:analytic/tei:author"/>
-                                            <br/>
-                                            <u>Beskrivning:</u>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'Insida']/tei:text/tei:body/tei:div[@type = 'beskrivning']/tei:p"/>
-
-                                        </article>
-                                    </div>
-                                </div>
-                                <div class="col-sm">
-
-                                    <div class="row">
-                                        <article class="metadata">
-
-                                            <u>Nyckelord:</u>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'Insida']/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords"/>
-                                            <br/>
-                                            <u>Digitaliserats av:</u>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:apply-templates
-                                                select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor"/>
-                                            <br/>
-                                            <u>Skanner:</u>
-                                            <xsl:text> </xsl:text>
-                                            <br/>
-                                            <xsl:apply-templates
-                                                select="//tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:appInfo/tei:application/tei:label"/>
-                                            <br/>
-                                            <u>Upphovsrätt:</u>
-                                            <xsl:text> </xsl:text>
-                                            <br/>
-                                            <xsl:apply-templates
-                                                select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability"/>
-                                            <br/>
-                                        </article>
-                                    </div>
-                                </div>
+                                <script type="text/javascript">
+                                            <![CDATA[
+                                    // Same JavaScript function from above
+                                    function imageZoom(imgID, resultID) {
+                                        var img = document.getElementById(imgID);
+                                        var result = document.getElementById(resultID);
+                                        var lens = document.createElement("DIV");
+                                        lens.setAttribute("class", "img-zoom-lens");
+                                        img.parentElement.insertBefore(lens, img);
+                                        
+                                        var cx = result.offsetWidth / lens.offsetWidth;
+                                        var cy = result.offsetHeight / lens.offsetHeight;
+                                        
+                                        result.style.backgroundImage = "url('" + img.src + "')";
+                                        result.style.backgroundSize = (img.width * cx) + "px " + (img.height * cy) + "px";
+                                        
+                                        lens.addEventListener("mousemove", moveLens);
+                                        img.addEventListener("mousemove", moveLens);
+                                        
+                                        function moveLens(e) {
+                                            var pos = getCursorPos(e);
+                                            var x = pos.x - (lens.offsetWidth / 2);
+                                            var y = pos.y - (lens.offsetHeight / 2);
+                                            if (x > img.width - lens.offsetWidth) {
+                                                x = img.width - lens.offsetWidth;
+                                            }
+                                            if (x < 0) {
+                                                x = 0;
+                                            }
+                                            if (y > img.height - lens.offsetHeight) {
+                                                y = img.height - lens.offsetHeight;
+                                            }
+                                            if (y < 0) {
+                                                y = 0;
+                                            }
+                                            lens.style.left = x + "px";
+                                            lens.style.top = y + "px";
+                                            result.style.backgroundPosition = "-" + (x * cx) + "px -" + (y * cy) + "px";
+                                        }
+                                        
+                                        function getCursorPos(e) {
+                                            var a = img.getBoundingClientRect();
+                                            var x = e.pageX - a.left - window.pageXOffset;
+                                            var y = e.pageY - a.top - window.pageYOffset;
+                                            return {
+                                                x: x, y: y
+                                            };
+                                        }
+                                    }
+                                    
+                                    window.onload = function () {
+                                        imageZoom("myimage", "myresult");
+                                    };//]]>
+                                        </script>
                             </div>
+
+                            <div class="col-sm">
+                                <article class="transkription">
+                                    <xsl:apply-templates
+                                        select="//tei:TEI[@xml:id = 'Framsida']/tei:text/tei:body/tei:div[@type = 'transkription']/tei:p"
+                                    />
+                                </article>
+
+                            </div>
+                            <div class="col-sm">
+                                <article class="metadata">
+                                    <u>Titel:</u>
+                                    <xsl:text> </xsl:text>
+                                    <xsl:apply-templates
+                                        select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                                    <br/>
+                                    <u>Skapare:</u>
+                                    <xsl:text> </xsl:text>
+                                    <xsl:apply-templates
+                                        select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:analytic/tei:author"/>
+                                    <br/>
+                                    <u>Beskrivning:</u>
+                                    <xsl:text> </xsl:text>
+                                    <xsl:apply-templates
+                                        select="//tei:TEI[@xml:id = 'Framsida']/tei:text/tei:body/tei:div[@type = 'beskrivning']/tei:p"
+                                    />
+                                </article>
+                            </div>
+                            <div class="col-sm">
+
+                                <article class="metadata">
+                                    <u>Nyckelord:</u>
+                                    <xsl:text> </xsl:text>
+                                    <xsl:apply-templates
+                                        select="//tei:TEI[@xml:id = 'Framsida']/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords"/>
+                                    <br/>
+                                    <u>Digitaliserats av:</u>
+                                    <xsl:text> </xsl:text>
+                                    <xsl:apply-templates
+                                        select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor"/>
+                                    <br/>
+                                    <u>Skanner:</u>
+                                    <xsl:text> </xsl:text>
+                                    <br/>
+                                    <xsl:apply-templates
+                                        select="//tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:appInfo/tei:application/tei:label"/>
+                                    <br/>
+                                    <u>Upphovsrätt:</u>
+                                    <xsl:text> </xsl:text>
+                                    <br/>
+                                    <xsl:apply-templates
+                                        select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability"/>
+                                    <br/>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+                                <article id="Insida">
+                                    <img class="img-full">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of
+                                                select="//tei:surfaceGrp[@n = 'insida']/tei:surface/tei:graphic[@xml:id = 'insida-visning']/@url"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of
+                                                select="//tei:TEI[@xml:id = 'Insida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of
+                                                select="//tei:TEI[@xml:id = 'Insida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                            />
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
+                            </div>
+
+                        </div>
+                        <div class="col-sm"> </div>
+                        <div class="col-sm">
+
+
+                            <article class="transkription">
+                                <xsl:apply-templates
+                                    select="//tei:TEI[@xml:id = 'Insida']/tei:text/tei:body/tei:div[@type = 'transkription']/tei:p"/>
+
+                            </article>
+
+                        </div>
+                        <div class="col-sm">
+
+
+                            <article class="metadata">
+                                <u>Titel:</u>
+                                <xsl:text> </xsl:text>
+                                <xsl:apply-templates
+                                    select="//tei:TEI[@xml:id = 'Insida']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                                <br/>
+                                <u>Skapare:</u>
+                                <xsl:text> </xsl:text>
+                                <xsl:apply-templates
+                                    select="//tei:TEI[@xml:id = 'Insida']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:analytic/tei:author"/>
+                                <br/>
+                                <u>Beskrivning:</u>
+                                <xsl:text> </xsl:text>
+                                <xsl:apply-templates
+                                    select="//tei:TEI[@xml:id = 'Insida']/tei:text/tei:body/tei:div[@type = 'beskrivning']/tei:p"/>
+
+                            </article>
+
+                        </div>
+                        <div class="col-sm">
+
+
+                            <article class="metadata">
+
+                                <u>Nyckelord:</u>
+                                <xsl:text> </xsl:text>
+                                <xsl:apply-templates
+                                    select="//tei:TEI[@xml:id = 'Insida']/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords"/>
+                                <br/>
+                                <u>Digitaliserats av:</u>
+                                <xsl:text> </xsl:text>
+                                <xsl:apply-templates
+                                    select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor"/>
+                                <br/>
+                                <u>Skanner:</u>
+                                <xsl:text> </xsl:text>
+                                <br/>
+                                <xsl:apply-templates
+                                    select="//tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:appInfo/tei:application/tei:label"/>
+                                <br/>
+                                <u>Upphovsrätt:</u>
+                                <xsl:text> </xsl:text>
+                                <br/>
+                                <xsl:apply-templates
+                                    select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability"/>
+                                <br/>
+                            </article>
+
                         </div>
                     </div>
                 </main>
@@ -232,13 +288,9 @@
                         <div class="col-sm copyright">
                             <div class="copyright_logos">
                                 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                                    <img src="assets/img/logos/cc-zero.png" class="Public-Domain"
-                                        alt="Public Domain License"/>
-                                    <style>
-                                        img {
-                                            width: 10%;
-                                            height: auto
-                                        }</style>
+                                    <img src="docs/assets/img/logos/cc-zero.png"
+                                        class="Public-Domain" alt="Public Domain License"
+                                        width="10%"/>
                                 </a>
                             </div>
                         </div>

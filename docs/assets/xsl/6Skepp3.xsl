@@ -14,8 +14,8 @@
                     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
                     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
                     crossorigin="anonymous"/>
-                <link rel="stylesheet" href="assets/css/main.css"/>
-                <link rel="stylesheet" href="assets/css/desktop.css"/>
+                <link rel="stylesheet" href="docs/assets/css/main.css"/>
+                <link rel="stylesheet" href="docs/assets/css/desktop.css"/>
             </head>
             <body>
                 <header>
@@ -53,17 +53,17 @@
                                             <img class="img-full">
                                                 <xsl:attribute name="src">
                                                   <xsl:value-of
-                                                      select="//tei:surfaceGrp[@n = 'pl.vii.a.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-a-visning']/@url"
+                                                  select="//tei:surfaceGrp[@n = 'PL.VII.A.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-a-visning']/@url"
                                                   />
                                                 </xsl:attribute>
                                                 <xsl:attribute name="title">
                                                   <xsl:value-of
-                                                      select="//tei:TEI[@xml:id = 'PL.VII.A.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                                  select="//tei:TEI[@xml:id = 'PL.VII.A.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
                                                 </xsl:attribute>
                                                 <xsl:attribute name="alt">
                                                   <xsl:value-of
-                                                  select="//tei:TEI[@xml:id = 'PL.VII.A.']/tei:text/tei:body/tei:div[@type = 'beskrivning']"
+                                                      select="//tei:TEI[@xml:id = 'PL.VII.A.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
                                                 </xsl:attribute>
                                             </img>
@@ -140,17 +140,17 @@
                                             <img class="img-full">
                                                 <xsl:attribute name="src">
                                                   <xsl:value-of
-                                                      select="//tei:surfaceGrp[@n = 'pl.vii.b.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-b-visning']/@url"
+                                                  select="//tei:surfaceGrp[@n = 'PL.VII.B.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-b-visning']/@url"
                                                   />
                                                 </xsl:attribute>
                                                 <xsl:attribute name="title">
                                                   <xsl:value-of
-                                                      select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                                  select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
                                                 </xsl:attribute>
                                                 <xsl:attribute name="alt">
                                                   <xsl:value-of
-                                                      select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:text/tei:body/tei:div[@type = 'beskrivning']"
+                                                      select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
                                                 </xsl:attribute>
                                             </img>
@@ -230,40 +230,40 @@
                                         <article id="PL.VII.C.">
                                             <img class="img-full">
                                                 <xsl:attribute name="src">
-                                                    <xsl:value-of
-                                                        select="//tei:surfaceGrp[@n = 'pl.vii.c.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-c-visning']/@url"
-                                                    />
+                                                  <xsl:value-of
+                                                  select="//tei:surfaceGrp[@n = 'PL.VII.C.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-c-visning']/@url"
+                                                  />
                                                 </xsl:attribute>
                                                 <xsl:attribute name="title">
-                                                    <xsl:value-of
-                                                        select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
-                                                    />
+                                                  <xsl:value-of
+                                                  select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                                  />
                                                 </xsl:attribute>
                                                 <xsl:attribute name="alt">
-                                                    <xsl:value-of
-                                                        select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:text/tei:body/tei:div[@type = 'beskrivning']"
-                                                    />
+                                                  <xsl:value-of
+                                                      select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                                  />
                                                 </xsl:attribute>
                                             </img>
                                         </article>
                                     </div>
-                                    
+
                                 </div>
                                 <div class="col-sm">
                                     <div class="row"> </div>
                                 </div>
                                 <div class="col-sm">
-                                    
+
                                     <div class="row">
                                         <article class="transkription">
                                             <xsl:apply-templates
                                                 select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:text/tei:body/tei:div[@type = 'transkription']/tei:p"/>
-                                            
+
                                         </article>
                                     </div>
                                 </div>
                                 <div class="col-sm">
-                                    
+
                                     <div class="row">
                                         <article class="metadata">
                                             <u>Titel:</u>
@@ -280,15 +280,15 @@
                                             <xsl:text> </xsl:text>
                                             <xsl:apply-templates
                                                 select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:text/tei:body/tei:div[@type = 'beskrivning']/tei:p"/>
-                                            
+
                                         </article>
                                     </div>
                                 </div>
                                 <div class="col-sm">
-                                    
+
                                     <div class="row">
                                         <article class="metadata">
-                                            
+
                                             <u>Nyckelord:</u>
                                             <xsl:text> </xsl:text>
                                             <xsl:apply-templates
@@ -323,13 +323,8 @@
                         <div class="col-sm copyright">
                             <div class="copyright_logos">
                                 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                                    <img src="assets/img/logos/cc-zero.png" class="Public-Domain"
-                                        alt="Public Domain License"/>
-                                    <style>
-                                        img {
-                                            width: 10%;
-                                            height: auto
-                                        }</style>
+                                    <img src="docs/assets/img/logos/cc-zero.png" class="Public-Domain"
+                                        alt="Public Domain License" width="10%"/>
                                 </a>
                             </div>
                         </div>

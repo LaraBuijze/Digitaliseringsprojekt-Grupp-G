@@ -75,3 +75,29 @@ footer {
     border: 1px solid black;
     width: 500px;
 }
+.zoom-layout {
+  display: flex;
+  gap: 20px; /* spacing between image and result */
+  align-items: flex-start;
+}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 100px;
+  height: 100px;
+}
+
+.img-zoom-result {
+  border: 1px solid #000000;
+  /*set the size of the result div:*/
+  width: 400px;
+  height: 400px;
+  margin-top: 85px;
+  margin-left: 30px;
+}

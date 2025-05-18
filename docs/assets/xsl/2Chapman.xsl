@@ -14,8 +14,8 @@
                     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
                     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
                     crossorigin="anonymous"/>
-                <link rel="stylesheet" href="assets/css/main.css"/>
-                <link rel="stylesheet" href="assets/css/desktop.css"/>
+                <link rel="stylesheet" href="docs/assets/css/main.css"/>
+                <link rel="stylesheet" href="docs/assets/css/desktop.css"/>
             </head>
             <body>
                 <header>
@@ -56,10 +56,9 @@
                         <div class="col-sm copyright">
                             <div class="copyright_logos">
                                 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                                    <img src="assets/img/logos/cc-zero.png" class="Public-Domain"
-                                        alt="Public Domain License"/>
-                                    <style> img {width: 10%; height: auto} </style>
-                                </a>
+                                    <img src="docs/assets/img/logos/cc-zero.png" class="Public-Domain"
+                                        alt="Public Domain License" width="10%"/>
+                                                                    </a>
                             </div>
                         </div>
                     </div>
