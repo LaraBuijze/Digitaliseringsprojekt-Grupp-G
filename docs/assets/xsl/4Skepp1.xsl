@@ -37,8 +37,7 @@
                                 <h3>Bild</h3>
                             </div>
                             <div class="col-sm">
-                                <h3>Zoom-ruta</h3>
-                            </div>
+                                                            </div>
                             <div class="col-sm">
                                 <h3>Transkription</h3>
                             </div>

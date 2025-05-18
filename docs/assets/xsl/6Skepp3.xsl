@@ -36,42 +36,37 @@
                             <div class="col-sm">
                                 <h3>Bild</h3>
                             </div>
-                            <div class="col-sm">
-                                <h3>Zoom-ruta</h3>
-                            </div>
+                            <div class="col-sm"></div>
                             <div class="col-sm">
                                 <h3>Transkription</h3>
                             </div>
                             <div class="col-sm">
                                 <h3>Metadata</h3>
                             </div>
-                            <div class="col-sm"> </div>
+                            <div class="col-sm"></div>
                             <div class="row">
                                 <div class="col-sm">
                                     <div class="row">
                                         <article id="PL.VII.A.">
-                                            <div class="image-popup-trigger">
-                                                <img class="img-full">
-                                                  <xsl:attribute name="src">
+                                            <img class="img-full">
+                                                <xsl:attribute name="src">
                                                   <xsl:value-of
                                                   select="//tei:surfaceGrp[@n = 'PL.VII.A.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-a-visning']/@url"
                                                   />
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="title">
+                                                </xsl:attribute>
+                                                <xsl:attribute name="title">
                                                   <xsl:value-of
                                                   select="//tei:TEI[@xml:id = 'PL.VII.A.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="alt">
+                                                </xsl:attribute>
+                                                <xsl:attribute name="alt">
                                                   <xsl:value-of
                                                   select="//tei:TEI[@xml:id = 'PL.VII.A.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
-                                                  </xsl:attribute>
-                                                </img>
-                                            </div>
+                                                </xsl:attribute>
+                                            </img>
                                         </article>
                                     </div>
-
                                 </div>
                                 <div class="col-sm">
                                     <div class="row"> </div>
@@ -139,44 +134,39 @@
                                 <div class="col-sm">
                                     <div class="row">
                                         <article id="PL.VII.B.">
-                                            <div class="zoom-container">
-                                                <img class="img-full">
-                                                  <xsl:attribute name="src">
+                                            <img class="img-full">
+                                                <xsl:attribute name="src">
                                                   <xsl:value-of
                                                   select="//tei:surfaceGrp[@n = 'PL.VII.B.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-b-visning']/@url"
                                                   />
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="title">
+                                                </xsl:attribute>
+                                                <xsl:attribute name="title">
                                                   <xsl:value-of
                                                   select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="alt">
+                                                </xsl:attribute>
+                                                <xsl:attribute name="alt">
                                                   <xsl:value-of
                                                   select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
-                                                  </xsl:attribute>
-                                                </img>
-                                            </div>
+                                                </xsl:attribute>
+                                            </img>
                                         </article>
                                     </div>
-
                                 </div>
                                 <div class="col-sm">
                                     <div class="row"> </div>
                                 </div>
                                 <div class="col-sm">
-
                                     <div class="row">
                                         <article class="transkription">
                                             <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:text/tei:body/tei:div[@type = 'transkription']/tei:p"/>
-
+                                                select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:text/tei:body/tei:div[@type = 'transkription']/tei:p"
+                                            />
                                         </article>
                                     </div>
                                 </div>
                                 <div class="col-sm">
-
                                     <div class="row">
                                         <article class="metadata">
                                             <u>Titel:</u>
@@ -192,8 +182,8 @@
                                             <u>Beskrivning:</u>
                                             <xsl:text> </xsl:text>
                                             <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:text/tei:body/tei:div[@type = 'beskrivning']/tei:p"/>
-
+                                                select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:text/tei:body/tei:div[@type = 'beskrivning']/tei:p"
+                                            />
                                         </article>
                                     </div>
                                 </div>
@@ -201,7 +191,6 @@
 
                                     <div class="row">
                                         <article class="metadata">
-
                                             <u>Nyckelord:</u>
                                             <xsl:text> </xsl:text>
                                             <xsl:apply-templates
@@ -232,44 +221,39 @@
                                 <div class="col-sm">
                                     <div class="row">
                                         <article id="PL.VII.C.">
-                                            <div class="zoom-container">
-                                                <img class="img-full">
-                                                  <xsl:attribute name="src">
+                                            <img class="img-full">
+                                                <xsl:attribute name="src">
                                                   <xsl:value-of
                                                   select="//tei:surfaceGrp[@n = 'PL.VII.C.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-c-visning']/@url"
                                                   />
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="title">
+                                                </xsl:attribute>
+                                                <xsl:attribute name="title">
                                                   <xsl:value-of
                                                   select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="alt">
+                                                </xsl:attribute>
+                                                <xsl:attribute name="alt">
                                                   <xsl:value-of
                                                   select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
-                                                  </xsl:attribute>
-                                                </img>
-                                            </div>
+                                                </xsl:attribute>
+                                            </img>
                                         </article>
                                     </div>
-
                                 </div>
                                 <div class="col-sm">
                                     <div class="row"> </div>
                                 </div>
                                 <div class="col-sm">
-
                                     <div class="row">
                                         <article class="transkription">
                                             <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:text/tei:body/tei:div[@type = 'transkription']/tei:p"/>
-
+                                                select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:text/tei:body/tei:div[@type = 'transkription']/tei:p"
+                                            />
                                         </article>
                                     </div>
                                 </div>
                                 <div class="col-sm">
-
                                     <div class="row">
                                         <article class="metadata">
                                             <u>Titel:</u>
@@ -285,16 +269,14 @@
                                             <u>Beskrivning:</u>
                                             <xsl:text> </xsl:text>
                                             <xsl:apply-templates
-                                                select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:text/tei:body/tei:div[@type = 'beskrivning']/tei:p"/>
-
+                                                select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:text/tei:body/tei:div[@type = 'beskrivning']/tei:p"
+                                            />
                                         </article>
                                     </div>
                                 </div>
                                 <div class="col-sm">
-
                                     <div class="row">
                                         <article class="metadata">
-
                                             <u>Nyckelord:</u>
                                             <xsl:text> </xsl:text>
                                             <xsl:apply-templates
@@ -342,6 +324,12 @@
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"/>
             </body>
         </html>
+        <script>
+            function zoomImage(img) {
+            const zoomed = document.getElementById("zoomed-image");
+            zoomed.src = img.src;
+            }
+        </script>
     </xsl:template>
 
     <xsl:template match="tei:p">

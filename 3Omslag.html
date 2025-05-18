@@ -21,9 +21,7 @@
                <div class="col-sm">
                   <h3>Bild</h3>
                </div>
-               <div class="col-sm">
-                  <h3>Zoom-ruta</h3>
-               </div>
+               <div class="col-sm"></div>
                <div class="col-sm">
                   <h3>Transkription</h3>
                </div>
@@ -31,132 +29,97 @@
                   <h3>Metadata</h3>
                </div>
                <div class="col-sm"></div>
-            </div>
-            <div class="row">
-               <div class="col-sm">
-                  <article id="Framsida"><img class="img-full" src="docs/assets/img/visning/framsida-visning.jpg" title="Framsida" alt="Framsida"><div class="img-zoom-container"><img id="Framsida" width="300" src="docs/assets/img/visning/framsida-visning.jpg"></div>
-                  </article>
+               <div class="row">
+                  <div class="col-sm">
+                     <div class="row">
+                        <article id="Framsida"><img class="img-full" src="docs/assets/img/visning/framsida-visning.jpg" title="Framsida" alt="Framsida"></article>
+                     </div>
+                  </div>
+                  <div class="col-sm">
+                     <div class="row"></div>
+                  </div>
+                  <div class="col-sm">
+                     <div class="row">
+                        <article class="transkription">
+                           <p>
+                              F.H. AF CHAPMAN
+                              <br>PLANCHER
+                              <br>TILL
+                              <br>THEORETISK AFHANDLING
+                              <br>OM
+                              <br>LINIESKEPP
+                              <br>UTGIFNE ÅR 1804.
+                              </p>
+                           <p>
+                              A.
+                              <br>1B.
+                              </p>
+                        </article>
+                     </div>
+                  </div>
+                  <div class="col-sm">
+                     <div class="row">
+                        <article class="metadata"><u>Titel:</u> Framsida<br><u>Skapare:</u> Fredrik Henrik af Chapman<br><u>Beskrivning:</u> 
+                           <p>Framsida av pärmen till Fredrik Henrik af Chapmans Plancher till theoretisk afhandling
+                              om linieskepp (1804). Pärmens dimensioner 51,5x62 cm.</p>
+                        </article>
+                     </div>
+                  </div>
+                  <div class="col-sm">
+                     <div class="row">
+                        <article class="metadata"><u>Nyckelord:</u> <a href="https://id.kb.se/term/sao/1800-talet">1800-talet, </a><a href="https://id.kb.se/term/sao/Kopparstick">kopparstick, </a><a href="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg, </a><a href="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri, </a><a href="https://id.kb.se/term/sao/Sverige">Sverige, </a><a href="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</a><br><u>Digitaliserats av:</u> Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar<br><u>Skanner:</u> <br>WideTEK26ARTGimp<br><u>Upphovsrätt:</u> <br>
+                           
+                           <p>Licensed with a <a href="https://creativecommons.org/publicdomain/mark/1.0/">
+                                 Public Domain Mark (PDM) </a><br> Fritt från kända upphovsrättsliga restriktioner </p>
+                           <br></article>
+                     </div>
+                  </div>
                </div>
-               <div class="col-sm">
-                  <div id="myresult" class="img-zoom-result"></div><script type="text/javascript">
-                                            
-                                    // Same JavaScript function from above
-                                    function imageZoom(imgID, resultID) {
-                                        var img = document.getElementById(imgID);
-                                        var result = document.getElementById(resultID);
-                                        var lens = document.createElement("DIV");
-                                        lens.setAttribute("class", "img-zoom-lens");
-                                        img.parentElement.insertBefore(lens, img);
-                                        
-                                        var cx = result.offsetWidth / lens.offsetWidth;
-                                        var cy = result.offsetHeight / lens.offsetHeight;
-                                        
-                                        result.style.backgroundImage = "url('" + img.src + "')";
-                                        result.style.backgroundSize = (img.width * cx) + "px " + (img.height * cy) + "px";
-                                        
-                                        lens.addEventListener("mousemove", moveLens);
-                                        img.addEventListener("mousemove", moveLens);
-                                        
-                                        function moveLens(e) {
-                                            var pos = getCursorPos(e);
-                                            var x = pos.x - (lens.offsetWidth / 2);
-                                            var y = pos.y - (lens.offsetHeight / 2);
-                                            if (x > img.width - lens.offsetWidth) {
-                                                x = img.width - lens.offsetWidth;
-                                            }
-                                            if (x < 0) {
-                                                x = 0;
-                                            }
-                                            if (y > img.height - lens.offsetHeight) {
-                                                y = img.height - lens.offsetHeight;
-                                            }
-                                            if (y < 0) {
-                                                y = 0;
-                                            }
-                                            lens.style.left = x + "px";
-                                            lens.style.top = y + "px";
-                                            result.style.backgroundPosition = "-" + (x * cx) + "px -" + (y * cy) + "px";
-                                        }
-                                        
-                                        function getCursorPos(e) {
-                                            var a = img.getBoundingClientRect();
-                                            var x = e.pageX - a.left - window.pageXOffset;
-                                            var y = e.pageY - a.top - window.pageYOffset;
-                                            return {
-                                                x: x, y: y
-                                            };
-                                        }
-                                    }
-                                    
-                                    window.onload = function () {
-                                        imageZoom("myimage", "myresult");
-                                    };//
-                                        </script></div>
-               <div class="col-sm">
-                  <article class="transkription">
-                     <p>
-                        F.H. AF CHAPMAN
-                        <br>PLANCHER
-                        <br>TILL
-                        <br>THEORETISK AFHANDLING
-                        <br>OM
-                        <br>LINIESKEPP
-                        <br>UTGIFNE ÅR 1804.
-                        </p>
-                     <p>
-                        A.
-                        <br>1B.
-                        </p>
-                  </article>
+               <div class="row">
+                  <div class="col-sm">
+                     <div class="row">
+                        <article id="Insida"><img class="img-full" src="docs/assets/img/visning/insida-visning.jpg" title="Insida" alt="Insida"></article>
+                     </div>
+                  </div>
+                  <div class="col-sm">
+                     <div class="row"></div>
+                  </div>
+                  <div class="col-sm">
+                     <div class="row">
+                        <article class="transkription">
+                           <p>
+                              Kungl. Marinförvaltningens
+                              <br>Ingenjöravdelning
+                              </p>
+                           <p>
+                              P 2.13
+                              <br>SJÖHISTORISKA MUSEET
+                              <br>Biblioteket
+                              <br>Stockholm
+                              <br>Rar. Saml. Ref
+                              <br>Bordet 810505/3
+                              </p>
+                        </article>
+                     </div>
+                  </div>
+                  <div class="col-sm">
+                     <div class="row">
+                        <article class="metadata"><u>Titel:</u> Insida<br><u>Skapare:</u> Fredrik Henrik af Chapman<br><u>Beskrivning:</u> 
+                           <p>Insidan av den främre pärmen till Fredrik Henrik af Chapmans Plancher till theoretisk
+                              afhandling om linieskepp (1804). Pärmens dimensioner 51,5x62 cm.</p>
+                        </article>
+                     </div>
+                  </div>
+                  <div class="col-sm">
+                     <div class="row">
+                        <article class="metadata"><u>Nyckelord:</u> <a href="https://id.kb.se/term/sao/1800-talet">1800-talet, </a><a href="https://id.kb.se/term/sao/Kopparstick">kopparstick, </a><a href="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg, </a><a href="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri, </a><a href="https://id.kb.se/term/sao/Sverige">Sverige, </a><a href="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</a><br><u>Digitaliserats av:</u> Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar<br><u>Skanner:</u> <br>WideTEK26ARTGimp<br><u>Upphovsrätt:</u> <br>
+                           
+                           <p>Licensed with a <a href="https://creativecommons.org/publicdomain/mark/1.0/">
+                                 Public Domain Mark (PDM) </a><br> Fritt från kända upphovsrättsliga restriktioner </p>
+                           <br></article>
+                     </div>
+                  </div>
                </div>
-               <div class="col-sm">
-                  <article class="metadata"><u>Titel:</u> Framsida<br><u>Skapare:</u> Fredrik Henrik af Chapman<br><u>Beskrivning:</u> 
-                     <p>Framsida av pärmen till Fredrik Henrik af Chapmans Plancher till theoretisk afhandling
-                        om linieskepp (1804). Pärmens dimensioner 51,5x62 cm.</p>
-                  </article>
-               </div>
-               <div class="col-sm">
-                  <article class="metadata"><u>Nyckelord:</u> <a href="https://id.kb.se/term/sao/1800-talet">1800-talet, </a><a href="https://id.kb.se/term/sao/Kopparstick">kopparstick, </a><a href="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg, </a><a href="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri, </a><a href="https://id.kb.se/term/sao/Sverige">Sverige, </a><a href="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</a><br><u>Digitaliserats av:</u> Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar<br><u>Skanner:</u> <br>WideTEK26ARTGimp<br><u>Upphovsrätt:</u> <br>
-                     
-                     <p>Licensed with a <a href="https://creativecommons.org/publicdomain/mark/1.0/">
-                           Public Domain Mark (PDM) </a><br> Fritt från kända upphovsrättsliga restriktioner </p>
-                     <br></article>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-sm">
-                  <article id="Insida"><img class="img-full" src="docs/assets/img/visning/insida-visning.jpg" title="Insida" alt="Insida"></article>
-               </div>
-            </div>
-            <div class="col-sm"></div>
-            <div class="col-sm">
-               <article class="transkription">
-                  <p>
-                     Kungl. Marinförvaltningens
-                     <br>Ingenjöravdelning
-                     </p>
-                  <p>
-                     P 2.13
-                     <br>SJÖHISTORISKA MUSEET
-                     <br>Biblioteket
-                     <br>Stockholm
-                     <br>Rar. Saml. Ref
-                     <br>Bordet 810505/3
-                     </p>
-               </article>
-            </div>
-            <div class="col-sm">
-               <article class="metadata"><u>Titel:</u> Insida<br><u>Skapare:</u> Fredrik Henrik af Chapman<br><u>Beskrivning:</u> 
-                  <p>Insidan av den främre pärmen till Fredrik Henrik af Chapmans Plancher till theoretisk
-                     afhandling om linieskepp (1804). Pärmens dimensioner 51,5x62 cm.</p>
-               </article>
-            </div>
-            <div class="col-sm">
-               <article class="metadata"><u>Nyckelord:</u> <a href="https://id.kb.se/term/sao/1800-talet">1800-talet, </a><a href="https://id.kb.se/term/sao/Kopparstick">kopparstick, </a><a href="https://id.kb.se/term/sao/Krigsfartyg">krigsfartyg, </a><a href="https://id.kb.se/term/sao/Skeppsbyggeri">skeppsbyggeri, </a><a href="https://id.kb.se/term/sao/Sverige">Sverige, </a><a href="https://id.kb.se/term/sao/Teknisk%20ritning">teknisk ritning</a><br><u>Digitaliserats av:</u> Lara Buijze, Ada Karlsson, Malin Nilsson, Hanna Skoglar<br><u>Skanner:</u> <br>WideTEK26ARTGimp<br><u>Upphovsrätt:</u> <br>
-                  
-                  <p>Licensed with a <a href="https://creativecommons.org/publicdomain/mark/1.0/">
-                        Public Domain Mark (PDM) </a><br> Fritt från kända upphovsrättsliga restriktioner </p>
-                  <br></article>
             </div>
          </div>
       </main>
