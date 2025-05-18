@@ -139,23 +139,25 @@
                                 <div class="col-sm">
                                     <div class="row">
                                         <article id="PL.VII.B.">
-                                            <img class="img-full">
-                                                <xsl:attribute name="src">
+                                            <div class="zoom-container">
+                                                <img class="img-full">
+                                                  <xsl:attribute name="src">
                                                   <xsl:value-of
                                                   select="//tei:surfaceGrp[@n = 'PL.VII.B.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-b-visning']/@url"
                                                   />
-                                                </xsl:attribute>
-                                                <xsl:attribute name="title">
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="title">
                                                   <xsl:value-of
                                                   select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
-                                                </xsl:attribute>
-                                                <xsl:attribute name="alt">
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="alt">
                                                   <xsl:value-of
                                                   select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
-                                                </xsl:attribute>
-                                            </img>
+                                                  </xsl:attribute>
+                                                </img>
+                                            </div>
                                         </article>
                                     </div>
 
@@ -230,23 +232,25 @@
                                 <div class="col-sm">
                                     <div class="row">
                                         <article id="PL.VII.C.">
-                                            <img class="img-full">
-                                                <xsl:attribute name="src">
+                                            <div class="zoom-container">
+                                                <img class="img-full">
+                                                  <xsl:attribute name="src">
                                                   <xsl:value-of
                                                   select="//tei:surfaceGrp[@n = 'PL.VII.C.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-c-visning']/@url"
                                                   />
-                                                </xsl:attribute>
-                                                <xsl:attribute name="title">
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="title">
                                                   <xsl:value-of
                                                   select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
-                                                </xsl:attribute>
-                                                <xsl:attribute name="alt">
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="alt">
                                                   <xsl:value-of
                                                   select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
-                                                </xsl:attribute>
-                                            </img>
+                                                  </xsl:attribute>
+                                                </img>
+                                            </div>
                                         </article>
                                     </div>
 
