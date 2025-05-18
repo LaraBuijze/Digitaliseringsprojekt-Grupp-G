@@ -50,23 +50,25 @@
                                 <div class="col-sm">
                                     <div class="row">
                                         <article id="PL.VII.A.">
-                                            <img class="img-full">
-                                                <xsl:attribute name="src">
+                                            <div class="zoom-container">
+                                                <img class="img-full">
+                                                  <xsl:attribute name="src">
                                                   <xsl:value-of
                                                   select="//tei:surfaceGrp[@n = 'PL.VII.A.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-a-visning']/@url"
                                                   />
-                                                </xsl:attribute>
-                                                <xsl:attribute name="title">
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="title">
                                                   <xsl:value-of
                                                   select="//tei:TEI[@xml:id = 'PL.VII.A.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
-                                                </xsl:attribute>
-                                                <xsl:attribute name="alt">
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="alt">
                                                   <xsl:value-of
-                                                      select="//tei:TEI[@xml:id = 'PL.VII.A.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                                  select="//tei:TEI[@xml:id = 'PL.VII.A.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
-                                                </xsl:attribute>
-                                            </img>
+                                                  </xsl:attribute>
+                                                </img>
+                                            </div>
                                         </article>
                                     </div>
 
@@ -150,7 +152,7 @@
                                                 </xsl:attribute>
                                                 <xsl:attribute name="alt">
                                                   <xsl:value-of
-                                                      select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                                  select="//tei:TEI[@xml:id = 'PL.VII.B.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
                                                 </xsl:attribute>
                                             </img>
@@ -241,7 +243,7 @@
                                                 </xsl:attribute>
                                                 <xsl:attribute name="alt">
                                                   <xsl:value-of
-                                                      select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                                  select="//tei:TEI[@xml:id = 'PL.VII.C.']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                                   />
                                                 </xsl:attribute>
                                             </img>
@@ -317,14 +319,15 @@
                             </div>
                         </div>
                     </div>
-                </main>
+                                  </main>
                 <footer>
                     <div class="row" id="footer">
                         <div class="col-sm copyright">
                             <div class="copyright_logos">
                                 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                                    <img src="docs/assets/img/logos/cc-zero.png" class="Public-Domain"
-                                        alt="Public Domain License" width="10%"/>
+                                    <img src="docs/assets/img/logos/cc-zero.png"
+                                        class="Public-Domain" alt="Public Domain License"
+                                        width="10%"/>
                                 </a>
                             </div>
                         </div>
