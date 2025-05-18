@@ -50,7 +50,7 @@
                                 <div class="col-sm">
                                     <div class="row">
                                         <article id="PL.VII.A.">
-                                            <div class="zoom-container">
+                                            <div class="image-popup-trigger">
                                                 <img class="img-full">
                                                   <xsl:attribute name="src">
                                                   <xsl:value-of
