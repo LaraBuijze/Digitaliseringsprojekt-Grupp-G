@@ -60,7 +60,7 @@
                                             <img class="img-full">
                                                 <xsl:attribute name="src">
                                                   <xsl:value-of
-                                                  select="//tei:surfaceGrp[@n = 'framsida']/tei:surface/tei:graphic[@xml:id = 'framsida-visning']/@url"
+                                                  select="//tei:surfaceGrp[@n = 'framsida']/tei:surface/tei:graphic[@xml:id = 'framsida-thumbnail']/@url"
                                                   />
                                                 </xsl:attribute>
                                                 <xsl:attribute name="title">
@@ -146,7 +146,7 @@
                                             <img class="img-full">
                                                 <xsl:attribute name="src">
                                                   <xsl:value-of
-                                                  select="//tei:surfaceGrp[@n = 'insida']/tei:surface/tei:graphic[@xml:id = 'insida-visning']/@url"
+                                                      select="//tei:surfaceGrp[@n = 'insida']/tei:surface/tei:graphic[@xml:id = 'insida-thumbnail']/@url"
                                                   />
                                                 </xsl:attribute>
                                                 <xsl:attribute name="title">

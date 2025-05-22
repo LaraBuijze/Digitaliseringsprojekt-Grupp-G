@@ -58,7 +58,7 @@
                                             <img class="img-full">
                                                 <xsl:attribute name="src">
                                                   <xsl:value-of
-                                                  select="//tei:surfaceGrp[@n = 'PL.VII.A.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-a-visning']/@url"
+                                                      select="//tei:surfaceGrp[@n = 'PL.VII.A.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-a-thumbnail']/@url"
                                                   />
                                                 </xsl:attribute>
                                                 <xsl:attribute name="title">
@@ -144,7 +144,7 @@
                                             <img class="img-full">
                                                 <xsl:attribute name="src">
                                                   <xsl:value-of
-                                                  select="//tei:surfaceGrp[@n = 'PL.VII.B.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-b-visning']/@url"
+                                                      select="//tei:surfaceGrp[@n = 'PL.VII.B.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-b-thumbnail']/@url"
                                                   />
                                                 </xsl:attribute>
                                                 <xsl:attribute name="title">
@@ -231,7 +231,7 @@
                                             <img class="img-full">
                                                 <xsl:attribute name="src">
                                                   <xsl:value-of
-                                                  select="//tei:surfaceGrp[@n = 'PL.VII.C.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-c-visning']/@url"
+                                                      select="//tei:surfaceGrp[@n = 'PL.VII.C.']/tei:surface/tei:graphic[@xml:id = 'pl-vii-c-thumbnail']/@url"
                                                   />
                                                 </xsl:attribute>
                                                 <xsl:attribute name="title">
