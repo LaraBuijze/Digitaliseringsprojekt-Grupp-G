@@ -19,4 +19,4 @@ med inbäddade metadata i tiff- och xcf-format finns att hämta [här](https://b
 
 Digitaliseringsprojektet är utförd av Lara Buijze, Ada Karlsson, Malin Nilsson och Hanna Skoglar. 
 GitHub användes under projektet och för publiceringen av materialet. Mallen till hemsidan är skapad
-av Wout Dillen ([DCHM-template](https://woutdln.github.io/DCHM-template/)).
+av Wout Dillen ([DCHM-template](https://github.com/sslis/DCHM-template)).
