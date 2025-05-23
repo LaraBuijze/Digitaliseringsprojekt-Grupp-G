@@ -28,13 +28,13 @@
                     <a href="index.html">Hem</a> | 
                     <a href="2Chapman.html">F.H. af Chapman</a> | 
                     <a href="3Omslag.html">Omslag</a> -
-                    <a href="3Omslag-Zoom.html">Zoom</a>| 
+                    <a href="3Omslag-Zoom.html">Detaljvy</a>| 
                     <a href="4Skepp1.html">Skepp om 110 kanoner</a> -
-                    <a href="4Skepp1-Zoom.html">Zoom</a> | 
+                    <a href="4Skepp1-Zoom.html">Detaljvy</a> | 
                     <a href="5Skepp2.html">Skepp om 80 kanoner</a> -
-                    <a href="5Skepp2-Zoom.html">Zoom</a> | 
+                    <a href="5Skepp2-Zoom.html">Detaljvy</a> | 
                     <a href="6Skepp3.html">Skepp om 52 kanoner</a> -
-                    <a href="6Skepp3-Zoom.html">Zoom</a> | 
+                    <a href="6Skepp3-Zoom.html">Detaljvy</a> | 
                 </nav>
                 <main id="manuscript">
                     <div class="container">
